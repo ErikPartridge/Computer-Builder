@@ -60,7 +60,7 @@ public class Drive extends Priced{
         try (MongoCursor<Document> cursor = drives.find().iterator()){
             while (cursor.hasNext()){
                 Drive drive = parseFromJson(cursor.next().toJson());
-                //if(drive.prices.size() > 0)
+                if(drive.prices.size() > 0)
                     driveList.add(drive);
             }
         }

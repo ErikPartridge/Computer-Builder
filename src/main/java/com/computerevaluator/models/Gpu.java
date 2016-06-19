@@ -60,7 +60,7 @@ public class Gpu extends Priced{
         try (MongoCursor<Document> cursor = collection.find().iterator()){
             while (cursor.hasNext()){
                 Gpu gpu = parseFromJson(cursor.next().toJson());
-               // if(gpu.prices.size() > 0)
+                if(gpu.prices.size() > 0)
                     list.add(gpu);
             }
         }

@@ -50,7 +50,7 @@ public class Motherboard extends Priced{
         try (MongoCursor<Document> cursor = mobos.find().iterator()){
             while (cursor.hasNext()){
                 Motherboard mobo = parseFromJson(cursor.next().toJson());
-                //if(mobo.prices.size() > 0)
+                if(mobo.prices.size() > 0)
                     motherboards.add(mobo);
             }
         }

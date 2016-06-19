@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Trirong" rel="stylesheet">
+    <title>Artisanal AI PCs</title>
+    <link href="lib/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css"/>
+    <script src="lib/semantic/dist/semantic.min.js"></script>
+    <script src="lib/vis/dist/vis.js"></script>
+    <link href="lib/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="lib/rangeslider.js/dist/rangeslider.min.js"></script>
+    <link href="lib/rangeslider.js/dist/rangeslider.css" rel="stylesheet" type="text/css"/>
+    <script src="lib/humanize-plus/dist/humanize.min.js"></script>
+
+</head>
+<body>
+    <div class="ui container">
+        <div class="ui grid">
+            <div class="ui row centered">
+                <div class="eight wide column centered center aligned">
+                    <h1>Artisanal AI Designed PCs</h1>
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="eight wide column centered center aligned">
+                    <label for="budget">Select Your Budget:</label>
+                    <p class="small italic">Approximate: the program may return options costing up to $50 more, if they are significantly better</p>
+                    <input type="range" id="budget" name="budget" min="400" max="2000" step="10" value="800" />
+                </div>
+            </div>
+            <div class="ui fifteen column row">
+                <div class="seven wide column">
+                    <hr>
+                </div>
+                <div class="one wide column centered center aligned">
+                    <h3>THEN</h3>
+                </div>
+                <div class="seven wide column">
+                    <hr>
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="six wide column centered center aligned">
+                    <h2>Choose a Sensible Preset</h2>
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="ten wide column centered center aligned">
+                    <button id="programming-preset" class="ui secondary button">
+                        Programming
+                    </button>
+                    <button id="editing-preset" class="ui secondary button">
+                        Editing
+                    </button>
+                    <button id="gaming-preset" class="ui secondary button">
+                        Gaming
+                    </button>
+                    <button id="browsing-preset" class="ui secondary button">
+                        Browsing
+                    </button>
+                    <button id="multi-preset" class="ui secondary button">
+                        Multi-Purpose
+                    </button>
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="three wide column centered center aligned">
+                    <button id="submit" class="ui primary button">
+                        BUILD!
+                    </button>
+                </div>
+            </div>
+            <div class="ui fifteen column row">
+                <div class="seven wide column">
+                    <hr>
+                </div>
+                <div class="one wide column centered center aligned">
+                    <h3>AND/OR</h3>
+                </div>
+                <div class="seven wide column">
+                    <hr>
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="six wide column centered center aligned">
+                    <h2>Adjust To Your Heart's Content</h2>
+                </div>
+            </div>
+            <div class="ui nine column row center aligned centered">
+                <div class="one wide column">
+
+                </div>
+                <div class="three wide column">
+                    <label id="cpu-label" for="cpu">CPU</label>
+                    <p class="small italic">Relative Importance</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="cpu" name="cpu" min="0.05" max="1.0" step=".05" value=".7" />
+                </div>
+                <div class="three wide column">
+                    <label id="gpu-label" for="gpu">GPU</label>
+                    <p class="small italic">Relative Importance</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="gpu" name="gpu" min="0.05" max="1.0" step=".05" value=".7" />
+                </div>
+                <div class="three wide column">
+                    <label id="disk-label" for="disk">Disk Speed</label>
+                    <p class="small italic">Relative Importance</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="disk" name="disk" min="0.05" max="1.0" step=".05" value=".7" />
+                </div>
+            </div>
+            <div class="ui nine column row center aligned centered">
+                <div class="three wide column">
+                    <label id="multi-label" for="multi">Multi-Core</label>
+                    <p class="small italic">vs. Single-Core</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="multi" name="multi" min="0.05" max="1.0" step=".05" value=".4" />
+                </div>
+                <div class="three wide column">
+                    <label id="space-label" for="space">Disk Space</label>
+                    <p class="small italic">A little or a lot?</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="space" name="space" min="0.05" max="1.0" step=".05" value=".4" />
+                </div>
+                <div class="two wide column">
+                    <label id="new-label" for="new">New Model Bias</label>
+                    <p class="small italic">Latest and Greatest?</p>
+                    <input class="custom" data-orientation="vertical" type="range" id="new" name="new" min="0.05" max="1.0" step=".05" value=".4" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('#programming-preset').click(function () {
+            $('#cpu').val('0.85').change();
+            $('#gpu').val('0.45').change();
+            $('#disk').val('0.65').change();
+            $('#multi').val('0.7').change();
+            $('#space').val('0.3').change();
+        });
+        $('#editing-preset').click(function(){
+            $('#cpu').val('1.0').change();
+            $('#gpu').val('0.45').change();
+            $('#disk').val('0.65').change();
+            $('#multi').val('0.9').change();
+            $('#space').val('0.4').change();
+        });
+        $('#gaming-preset').click(function(){
+            $('#cpu').val('.4').change();
+            $('#gpu').val('1.0').change();
+            $('#disk').val('0.7').change();
+            $('#multi').val('0.3').change();
+            $('#space').val('0.65').change();
+        });
+        $('#browsing-preset').click(function(){
+            $('#cpu').val('.5').change();
+            $('#gpu').val('.3').change();
+            $('#disk').val('0.8').change();
+            $('#multi').val('0.5').change();
+            $('#space').val('0.3').change();
+        });
+        $('#multi-preset').click(function(){
+            $('#cpu').val('.6').change();
+            $('#gpu').val('.4').change();
+            $('#disk').val('1.0').change();
+            $('#multi').val('0.7').change();
+            $('#space').val('0.7').change();
+        });
+    </script>
+<script>
+    $( document ).ready(function() {
+        $('#budget').rangeslider({
+            polyfill: false,
+            onInit: function(){
+                this.output = $('<h4 class="budget-value"/>').insertBefore(this.$range).html("&#36;" + this.$element.val());
+            },
+            onSlide : function( position, value ) {
+                this.output.html("&#36;" + Humanize.intComma(value));
+            }
+        });
+        $("#cpu").rangeslider({
+            polyfill: false,
+            onInit: function(){
+                $('#cpu-label').html("CPU: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#cpu-label').html("CPU: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+        $("#gpu").rangeslider({
+            polyfill: false,
+            onInit: function(){
+                $('#gpu-label').html("GPU: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#gpu-label').html("GPU: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+        $("#disk").rangeslider({
+            polyfill: false,
+            onInit: function(){
+                $('#disk-label').html("Disk Speed: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#disk-label').html("Disk Speed: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+        $("#multi").rangeslider({
+           polyfill: false,
+            onInit: function(){
+                $('#multi-label').html("Multi-Core: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#multi-label').html("Multi-Core: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+        $("#space").rangeslider({
+            polyfill: false,
+            onInit: function(){
+                $('#space-label').html("Disk Space: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#space-label').html("Disk Space: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+        $("#new").rangeslider({
+            polyfill: false,
+            onInit: function(){
+                $('#new-label').html("New Model Bias: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+            },
+            onSlide : function( position, value ) {
+                $('#new-label').html("New Model Bias: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

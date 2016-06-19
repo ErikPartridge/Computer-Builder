@@ -3,18 +3,23 @@ package com.computerevaluator.ai;
 import com.computerevaluator.Result;
 import com.computerevaluator.models.Computer;
 import com.computerevaluator.models.Settings;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.uncommons.maths.random.MersenneTwisterRNG;
 import org.uncommons.maths.random.Probability;
-import org.uncommons.watchmaker.framework.EvolutionEngine;
-import org.uncommons.watchmaker.framework.EvolutionObserver;
-import org.uncommons.watchmaker.framework.GenerationalEvolutionEngine;
-import org.uncommons.watchmaker.framework.PopulationData;
+import org.uncommons.watchmaker.framework.*;
 import org.uncommons.watchmaker.framework.islands.IslandEvolution;
 import org.uncommons.watchmaker.framework.islands.IslandEvolutionObserver;
 import org.uncommons.watchmaker.framework.islands.RingMigration;
+import org.uncommons.watchmaker.framework.operators.IdentityOperator;
+import org.uncommons.watchmaker.framework.operators.Replacement;
+import org.uncommons.watchmaker.framework.operators.SplitEvolution;
 import org.uncommons.watchmaker.framework.selection.*;
 import org.uncommons.watchmaker.framework.termination.GenerationCount;
 import org.uncommons.watchmaker.framework.termination.Stagnation;
+import org.uncommons.watchmaker.framework.termination.TargetFitness;
+
+import java.util.ArrayList;
+import java.util.Comparator;
 
 /**
  * Created by erik on 6/14/16.
@@ -23,45 +28,39 @@ public class Engine{
 
 
     public static void main(String[] args){
-        final Result allTimeBest = new Result();
-        Settings settings = new Settings(1,1,0,0, 1, .7);
-        EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(new ComputerFactory(), new ComputerCrossover(1), new ComputerEvaluator(settings), new SigmaScaling(), new MersenneTwisterRNG());
+        final ArrayList<Computer> best = new ArrayList<>();
+        Settings settings = new Settings(.7, 1, 800,850, 1, .7);
+        for(int i = 0; i < 1; i++ ){
+            //final Result allTimeBest = new Result();
+            EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(new ComputerFactory(),new SplitEvolution<Computer>(new ComputerCrossover(1), new Replacement<Computer>(new ComputerFactory(), new Probability(.9)), .94), (new ComputerEvaluator(settings)),new RouletteWheelSelection(), new MersenneTwisterRNG());
 
-        engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
-            /*if(populationData.getGenerationNumber() % 10 != 0){
-                return;
-            }*/
-            System.out.println("--------------");
-            System.out.println("Generation: " + populationData.getGenerationNumber());
-            System.out.println(populationData.getBestCandidate().toString());
-            //System.out.println("Score: " + new ComputerEvaluator(settings).getFitness(populationData.getBestCandidate(), null));
-            System.out.println("Fitness: " + populationData.getBestCandidateFitness() + "/" + populationData.getMeanFitness());
-            allTimeBest.updateIfBetter(populationData.getBestCandidate(), populationData.getBestCandidateFitness());
-        });
-        Computer result = engine.evolve(300, 20,  new Stagnation(30,true ));
-        System.out.println("RESULT:");
-        System.out.println(allTimeBest.getComputer().toString());
-        System.out.println(allTimeBest.getScore());
-
-      /*  IslandEvolution<Computer> island = new IslandEvolution<Computer>(5, new RingMigration(), new ComputerFactory(), new ComputerCrossover(1), new ComputerEvaluator(settings), new TournamentSelection(new Probability(.8)), new MersenneTwisterRNG());
-        island.addEvolutionObserver(new IslandEvolutionObserver<Computer>(){
-            @Override
-            public void islandPopulationUpdate(int i, PopulationData<? extends Computer> populationData){
-
-            }
-
-            @Override
-            public void populationUpdate(PopulationData<? extends Computer> populationData){
+            engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
                 System.out.println("--------------");
                 System.out.println("Generation: " + populationData.getGenerationNumber());
                 System.out.println(populationData.getBestCandidate().toString());
                 //System.out.println("Score: " + new ComputerEvaluator(settings).getFitness(populationData.getBestCandidate(), null));
                 System.out.println("Fitness: " + populationData.getBestCandidateFitness() + "/" + populationData.getMeanFitness());
+            });
+            Computer result = engine.evolve(600, 20, new Stagnation(12, true));
+          //  allTimeBest.updateIfBetter(result, new ComputerEvaluator(settings).getFitness(result, null));
+           // result = allTimeBest.getComputer();
 
+            if(result.getPrice() > settings.hardBudget){
+                i--;
+                System.out.println("ERROR");
+            }else if(!result.compatible()){
+                i--;
+                System.out.println("Compatibility error");
+            }else{
+                System.out.println("RESULT:");
+                System.out.println(result.toString());
+                System.out.println(new ComputerEvaluator(settings).getFitness(result,null));
             }
-        });
-        Computer result = island.evolve(100, 5, 50, 3, new Stagnation(1000, true, false));
-        System.out.println("RESULT:");
-        System.out.println(result.toString());*/
+             best.sort((o1, o2) -> {
+                ComputerEvaluator fit = new ComputerEvaluator(settings);
+                return(int) (fit.getFitness(o1, null) - fit.getFitness(o2, null));
+            });
+
+        }
     }
 }

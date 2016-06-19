@@ -1,0 +1,18 @@
+{
+  "name": "Computer-Builder",
+  "homepage": "https://github.com/ErikPartridge/Computer-Builder",
+  "authors": [
+    "Erik Partridge <erik.partridge@mail.mcgill.ca>"
+  ],
+  "description": "",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

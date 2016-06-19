@@ -33,7 +33,9 @@ public class ComputerCrossover extends AbstractCrossover<Computer>{
     }
 
     protected List<Computer> mate(Computer computer, Computer t1, int points, Random random){
-        List<Integer> crossoverPoints = new ArrayList<Integer>();
+        Computer r1 = new Computer(computer.cpu, computer.gpu, computer.bootDrive, computer.secondaryDrive, computer.motherboard, computer.power, computer.ram);
+        Computer r2 = new Computer(t1.cpu, t1.gpu, t1.bootDrive, t1.secondaryDrive, t1.motherboard, t1.power, t1.ram);
+        List<Integer> crossoverPoints = new ArrayList<>();
         int count = 0;
         while(crossoverPoints.size() < points && count < 900){
             int number = random.nextInt(TOTAL_COMPONENTS -1);
@@ -43,19 +45,19 @@ public class ComputerCrossover extends AbstractCrossover<Computer>{
         }
         for(int index : crossoverPoints){
             switch (index){
-                case 0 : Cpu temp = t1.cpu; t1.cpu = computer.cpu; computer.cpu = temp;break;
-                case 1 : Gpu tempGpu = t1.gpu; t1.gpu = computer.gpu; computer.gpu = tempGpu; break;
-                case 2 : Drive tempBoot = t1.bootDrive; t1.bootDrive =computer.bootDrive; computer.bootDrive = tempBoot; break;
-                case 3 : Drive tempSec = t1.secondaryDrive; t1.secondaryDrive = computer.secondaryDrive; computer.secondaryDrive = tempSec; break;
-                case 4 : Motherboard tempMobo = t1.motherboard; t1.motherboard = computer.motherboard; computer.motherboard = tempMobo;break;
-                case 5 : Psu tempPsu = t1.power; t1.power = computer.power; computer.power = tempPsu; break;
-                case 6 : Ram tempRam = t1.ram; t1.ram = computer.ram; computer.ram = tempRam; break;
+                case 0 : Cpu temp = r2.cpu; r2.cpu = r1.cpu; r1.cpu = temp;break;
+                case 1 : Gpu tempGpu = r2.gpu; r2.gpu = r1.gpu; r1.gpu = tempGpu; break;
+                case 2 : Drive tempBoot = r2.bootDrive; r2.bootDrive =r1.bootDrive; r1.bootDrive = tempBoot; break;
+                case 3 : Drive tempSec = r2.secondaryDrive; r2.secondaryDrive = r1.secondaryDrive; r1.secondaryDrive = tempSec; break;
+                case 4 : Motherboard tempMobo = r2.motherboard; r2.motherboard = r1.motherboard; r1.motherboard = tempMobo;break;
+                case 5 : Psu tempPsu = r2.power; r2.power = r1.power; r1.power = tempPsu; break;
+                case 6 : Ram tempRam = r2.ram; r2.ram = r1.ram; r1.ram = tempRam; break;
             }
 
         }
         ArrayList<Computer> result = new ArrayList<>();
-        result.add(computer);
-        result.add(t1);
+        result.add(r1);
+        result.add(r2);
         return result;
     }
 

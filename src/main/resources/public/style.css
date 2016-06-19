@@ -1,0 +1,15 @@
+*{
+    font-family: 'Maitree', serif!important;
+}
+.small{
+    font-size: 12px;
+    color: grey;
+    font-family: 'Raleway', sans-serif !important;
+}
+.italic{
+    font-style: italic;
+}
+
+.custom{
+    align-items: center !important;
+}

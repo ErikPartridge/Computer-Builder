@@ -43,7 +43,7 @@ public class Ram extends Priced{
         try (MongoCursor<Document> cursor = rams.find().iterator()){
             while (cursor.hasNext()){
                 Ram r = parseFromJson(cursor.next().toJson());
-                //if(r.prices.size() > 0)
+                if(r.prices.size() > 0)
                     ram.add(r);
             }
         }

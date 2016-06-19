@@ -24,7 +24,7 @@ public class ComputerFactory extends AbstractCandidateFactory<Computer>{
         List<Cpu> cpuList = Cpu.list();
         Cpu cpu = cpuList.get(random.nextInt(cpuList.size()));
         Gpu gpu;
-        if(random.nextDouble() < .1 && cpu.integratedGraphics){
+        if(random.nextDouble() < 0 && cpu.integratedGraphics){
             gpu = new IntegratedGraphics();
         }else{
             List<Gpu> gpuList = Gpu.list();
@@ -36,7 +36,7 @@ public class ComputerFactory extends AbstractCandidateFactory<Computer>{
         if(random.nextDouble() < .4)
             secondary = drives.get(random.nextInt(drives.size()));
         List<Motherboard> compatibleMotherboard = Motherboard.list();
-        compatibleMotherboard = compatibleMotherboard.stream().filter(motherboard -> motherboard.socket.equals(cpu.socket)).collect(Collectors.toList());
+        compatibleMotherboard = compatibleMotherboard.stream().collect(Collectors.toList());
         Motherboard motherboard = compatibleMotherboard.get(random.nextInt(compatibleMotherboard.size()));
 
         List<Psu> powersupplies = Psu.list();

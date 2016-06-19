@@ -60,9 +60,9 @@ public class Psu extends Priced {
         try (MongoCursor<Document> cursor = collection.find().iterator()) {
             while (cursor.hasNext()) {
                 Psu psu = parseFromJson(cursor.next().toJson());
-                //if(psu.prices.size() > 0){
+                if(psu.prices.size() > 0){
                     list.add(psu);
-                //}
+                }
             }
         }
         return list;

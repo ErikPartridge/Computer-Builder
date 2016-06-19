@@ -75,7 +75,7 @@ public class Cpu extends Priced{
         try (MongoCursor<Document> cursor = cpus.find().iterator()){
             while (cursor.hasNext()){
                 Cpu cpu = parseFromJson(cursor.next().toJson());
-                //if(cpu.prices.size() > 0)
+                if(cpu.prices.size() > 0)
                     cpuList.add(cpu);
             }
         }
