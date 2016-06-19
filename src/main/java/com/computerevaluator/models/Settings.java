@@ -40,9 +40,3 @@ public class Settings{
     }
 }
 
-enum Size{
-    mATX("MicroATX"), ATX("ATX"), mITX("Mini ITX");
-    Size(String name){
-
-    }
-}

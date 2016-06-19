@@ -11,6 +11,7 @@ import com.computerevaluator.services.Connection;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +21,11 @@ import static com.mongodb.client.model.Filters.*;
  * Created by erik on 5/17/16.
  */
 public class Drive extends Priced{
+
+
+    private static long timestamp = 0;
+
+    private static List<Drive> drives = Collections.synchronizedList(new ArrayList<>());
 
     public final String name;
 
@@ -53,19 +59,23 @@ public class Drive extends Priced{
 
 
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Drive> list(){
-        MongoCollection<Document> drives = database.getCollection("drives");
-        List<Drive> driveList = new ArrayList<>();
-        try (MongoCursor<Document> cursor = drives.find().iterator()){
-            while (cursor.hasNext()){
-                Drive drive = parseFromJson(cursor.next().toJson());
-                if(drive.prices.size() > 0)
-                    driveList.add(drive);
+        if(drives.size() > 0 && System.currentTimeMillis() - timestamp < 10000){
+            return drives;
+        }else{
+            timestamp = System.currentTimeMillis();
+            MongoCollection<Document> collection = database.getCollection("drives");
+            List<Drive> driveList = new ArrayList<>();
+            try (MongoCursor<Document> cursor = collection.find().iterator()){
+                while (cursor.hasNext()){
+                    Drive drive = parseFromJson(cursor.next().toJson());
+                    if (drive.prices.size() > 0)
+                        driveList.add(drive);
+                }
             }
+            drives = driveList;
+            return driveList;
         }
-        return driveList;
-
     }
 
     private static Drive parseFromJson (String raw){

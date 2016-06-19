@@ -64,7 +64,6 @@ public class Price implements Comparable{
     }
 
     public static Price low(List<Price> prices){
-        prices.sort((o1, o2) -> (int) (o1.price.doubleValue() - o2.price.doubleValue() * 100));
         if(prices.size() > 0){
             return prices.get(0);
         }else{

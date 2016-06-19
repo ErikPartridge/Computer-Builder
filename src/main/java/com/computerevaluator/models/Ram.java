@@ -27,6 +27,10 @@ public class Ram extends Priced{
 
     public final int size;
 
+    private static List<Ram> ramList = new ArrayList<>();
+
+    private static long timestamp = 0;
+
     public Ram (List<Price> prices, String type, int number, int size) {
         super(prices);
         this.type = type;
@@ -36,18 +40,23 @@ public class Ram extends Priced{
 
     private static final MongoDatabase database = Connection.database;
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Ram> list(){
-        MongoCollection<Document> rams = database.getCollection("ram");
-        List<Ram> ram = new ArrayList<>();
-        try (MongoCursor<Document> cursor = rams.find().iterator()){
-            while (cursor.hasNext()){
-                Ram r = parseFromJson(cursor.next().toJson());
-                if(r.prices.size() > 0)
-                    ram.add(r);
+        if(System.currentTimeMillis() - timestamp < 10000 && ramList.size() > 0){
+            return ramList;
+        }else{
+            MongoCollection<Document> rams = database.getCollection("ram");
+            List<Ram> ram = new ArrayList<>();
+            try (MongoCursor<Document> cursor = rams.find().iterator()){
+                while (cursor.hasNext()){
+                    Ram r = parseFromJson(cursor.next().toJson());
+                    if (r.prices.size() > 0)
+                        ram.add(r);
+                }
             }
+            ramList = ram;
+            timestamp = System.currentTimeMillis();
+            return ram;
         }
-        return ram;
 
     }
 

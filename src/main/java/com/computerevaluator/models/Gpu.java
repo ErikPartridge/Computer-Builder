@@ -10,6 +10,7 @@ import com.computerevaluator.services.Connection;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +21,9 @@ import static com.mongodb.client.model.Filters.eq;
  */
 public class Gpu extends Priced{
 
+
+    private static List<Gpu> gpus = Collections.synchronizedList(new ArrayList<>());
+    private static long timestamp = 0;
 
     public Gpu(String name, String shortname, List<Price> prices, int fps, int threedmark, int power){
         super (prices);
@@ -52,19 +56,24 @@ public class Gpu extends Priced{
         return "{\"name\" :\"" + name + "\", \"short\":\"" + shortname + "\"}";
     }
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Gpu> list(){
-        String collName = "gpus";
-        MongoCollection<Document> collection = database.getCollection(collName);
-        List<Gpu> list = new ArrayList<>();
-        try (MongoCursor<Document> cursor = collection.find().iterator()){
-            while (cursor.hasNext()){
-                Gpu gpu = parseFromJson(cursor.next().toJson());
-                if(gpu.prices.size() > 0)
-                    list.add(gpu);
+        if(gpus.size() > 0 && System.currentTimeMillis() - timestamp < 10000){
+            return gpus;
+        }else{
+            timestamp = System.currentTimeMillis();
+            String collName = "gpus";
+            MongoCollection<Document> collection = database.getCollection(collName);
+            List<Gpu> list = new ArrayList<>();
+            try (MongoCursor<Document> cursor = collection.find().iterator()){
+                while (cursor.hasNext()){
+                    Gpu gpu = parseFromJson(cursor.next().toJson());
+                    if (gpu.prices.size() > 0)
+                        list.add(gpu);
+                }
             }
+            gpus =list;
+            return list;
         }
-        return list;
     }
 
     public static Price lowPrice(String shortname){

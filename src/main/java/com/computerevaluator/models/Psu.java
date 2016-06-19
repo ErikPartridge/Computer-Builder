@@ -27,6 +27,9 @@ public class Psu extends Priced {
 
     public final int tier;
 
+    private static List<Psu> psus = new ArrayList<>();
+    private static long timestamp  =0;
+
 
     private Psu (String name, int power,int tier, List<Price> prices) {
         super(prices);
@@ -52,29 +55,34 @@ public class Psu extends Priced {
         return new Psu(obj.getString("name"), obj.getInt("watts"), obj.getInt("tier"), priced.prices);
     }
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Psu> list () {
-        String collName = "powersupplies";
-        MongoCollection<Document> collection = database.getCollection(collName);
-        List<Psu> list = new ArrayList<>();
-        try (MongoCursor<Document> cursor = collection.find().iterator()) {
-            while (cursor.hasNext()) {
-                Psu psu = parseFromJson(cursor.next().toJson());
-                if(psu.prices.size() > 0){
-                    list.add(psu);
+        if(System.currentTimeMillis() - timestamp < 10000 && psus.size() > 0){
+            return psus;
+        }else{
+            String collName = "powersupplies";
+            MongoCollection<Document> collection = database.getCollection(collName);
+            List<Psu> list = new ArrayList<>();
+            try (MongoCursor<Document> cursor = collection.find().iterator()){
+                while (cursor.hasNext()){
+                    Psu psu = parseFromJson(cursor.next().toJson());
+                    if (psu.prices.size() > 0){
+                        list.add(psu);
+                    }
                 }
             }
+            timestamp = System.currentTimeMillis();
+            psus = list;
+            return list;
         }
-        return list;
     }
 
     public static BigDecimal medianPrice (String name) {
         if (name.equals("already")) {
             return new BigDecimal(0);
         } else if (name.startsWith("stock")) {
-            List<Psu> psus = listInGroup(name.replaceAll("stock-", ""));
+            List<Psu> supplies = listInGroup(name.replaceAll("stock-", ""));
             List<Price> prices = new ArrayList<>();
-            psus.forEach(psu -> prices.addAll(psu.prices));
+            supplies.forEach(psu -> prices.addAll(psu.prices));
             return Price.median(prices);
         } else {
             return Price.median(find(name).prices);

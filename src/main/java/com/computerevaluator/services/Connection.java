@@ -13,4 +13,6 @@ public class Connection{
 
     public static final MongoDatabase database = client.getDatabase("computerparts");
 
+    public static final MongoDatabase resultDb = client.getDatabase("results");
+
 }

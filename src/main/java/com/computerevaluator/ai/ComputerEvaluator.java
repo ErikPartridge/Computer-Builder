@@ -110,7 +110,7 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
 
 
     private double maxCpuScore(){
-        List<Cpu> cpus = Cpu.list();
+        List<Cpu> cpus = new ArrayList<>(Cpu.list());
         cpus.sort((o1, o2) -> (int)((( settings.multicore * o1.multicore / 2 )+ ( 1 - settings.multicore) * o1.singlecore)  - (settings.multicore * o2.multicore /2 + (1-settings.multicore) * o2.singlecore)));
         return (double) ((settings.multicore * cpus.get(cpus.size() - 1).multicore / 2) + (1-settings.multicore) * cpus.get(cpus.size() - 1).singlecore);
     }
@@ -122,7 +122,7 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
     }
 
     private double maxGpuScore(){
-        List<Gpu> gpus = Gpu.list();
+        List<Gpu> gpus = new ArrayList<>(Gpu.list());
         gpus.sort((o1, o2) -> (o1.fps * o1.threedmark / 100  - o2.fps * o2.threedmark / 100 ));
         return (double) ((gpus.get(gpus.size() - 1).fps + gpus.get(gpus.size() - 1).threedmark / 100));
 

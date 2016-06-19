@@ -20,25 +20,20 @@ public class Priced{
 
     static Priced parsePrice (String json){
         JSONObject obj = new JSONObject(json);
-        List<Price> prices = new ArrayList<>();
+        final List<Price> prices = new ArrayList<>();
         JSONArray priceArray = obj.getJSONArray("prices");
         for (int j = 0; j < priceArray.length(); j++){
-            Price price = Price.priceFromJson(priceArray.getJSONObject(j));
+            final Price price = Price.priceFromJson(priceArray.getJSONObject(j));
             if(price != null){
                 prices.add(price);
             }
         }
+        prices.sort((o1, o2) -> (int) (o1.price.doubleValue() * 100 - o2.price.doubleValue() * 100));
         return new Priced(prices);
     }
 
     public Price lowPrice (){
-        Price low = null;
-        for (Price price : prices){
-            if (low == null || price.price.doubleValue() < low.price.doubleValue()){
-                low = price;
-            }
-        }
-        return low;
+        return Price.low(prices);
     }
 
 

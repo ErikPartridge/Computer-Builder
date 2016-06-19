@@ -7,9 +7,11 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 import org.json.JSONObject;
 import com.computerevaluator.services.Connection;
+import sun.plugin2.gluegen.runtime.CPU;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +22,9 @@ import static com.mongodb.client.model.Filters.eq;
  */
 public class Cpu extends Priced{
 
+    private static List<Cpu> cpus = Collections.synchronizedList(new ArrayList<>());
+
+    private static long timestamp = 0;
 
     public final String name;
 
@@ -67,19 +72,24 @@ public class Cpu extends Priced{
 
     private static final MongoDatabase database = Connection.database;
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Cpu> list(){
 
-        MongoCollection<Document> cpus = database.getCollection("cpus");
-        List<Cpu> cpuList = new ArrayList<>();
-        try (MongoCursor<Document> cursor = cpus.find().iterator()){
-            while (cursor.hasNext()){
-                Cpu cpu = parseFromJson(cursor.next().toJson());
-                if(cpu.prices.size() > 0)
-                    cpuList.add(cpu);
+        if(cpus.size() > 0 && System.currentTimeMillis() - timestamp < 10000){
+            return cpus;
+        }else{
+            timestamp = System.currentTimeMillis();
+            MongoCollection<Document> collection = database.getCollection("cpus");
+            List<Cpu> cpuList = new ArrayList<>();
+            try (MongoCursor<Document> cursor = collection.find().iterator()){
+                while (cursor.hasNext()){
+                    Cpu cpu = parseFromJson(cursor.next().toJson());
+                    if (cpu.prices.size() > 0)
+                        cpuList.add(cpu);
+                }
             }
+            cpus = cpuList;
+            return cpuList;
         }
-        return cpuList;
     }
 
 

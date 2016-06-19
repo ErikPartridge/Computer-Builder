@@ -21,6 +21,9 @@ import static com.mongodb.client.model.Filters.eq;
  */
 public class Motherboard extends Priced{
 
+    private static List<Motherboard> motherboards = new ArrayList<>();
+    private static long timestamp = 0;
+
     public final String name;
 
     public final String formFactor;
@@ -43,18 +46,23 @@ public class Motherboard extends Priced{
     private static final MongoDatabase database = Connection.database;
 
 
-    @Cacheable(lifetime = 30, unit = TimeUnit.SECONDS)
     public static List<Motherboard> list(){
-        MongoCollection<Document> mobos = database.getCollection("motherboards");
-        List<Motherboard> motherboards = new ArrayList<>();
-        try (MongoCursor<Document> cursor = mobos.find().iterator()){
-            while (cursor.hasNext()){
-                Motherboard mobo = parseFromJson(cursor.next().toJson());
-                if(mobo.prices.size() > 0)
-                    motherboards.add(mobo);
+        if(motherboards.size() > 0 && System.currentTimeMillis() - timestamp < 10000){
+            return motherboards;
+        }else{
+            MongoCollection<Document> mobos = database.getCollection("motherboards");
+            List<Motherboard> list = new ArrayList<>();
+            try (MongoCursor<Document> cursor = mobos.find().iterator()){
+                while (cursor.hasNext()){
+                    Motherboard mobo = parseFromJson(cursor.next().toJson());
+                    if (mobo.prices.size() > 0)
+                        list.add(mobo);
+                }
             }
+            motherboards = list;
+            timestamp = System.currentTimeMillis();
+            return motherboards;
         }
-        return motherboards;
 
     }
 
