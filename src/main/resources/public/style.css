@@ -14,6 +14,9 @@
     align-items: center !important;
 }
 
+.redurl{
+    color: #8B0000; text-decoration: underline;
+}
 .sk-folding-cube {
     margin: 20px auto;
     width: 40px;

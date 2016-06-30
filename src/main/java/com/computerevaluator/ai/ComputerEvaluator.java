@@ -33,7 +33,7 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
             score -= (settings.softBudget - price) / 120;
         }
         if(price > settings.softBudget && price < settings.hardBudget){
-            score -= (settings.softBudget - price) / 20;
+            score -= (price - settings.softBudget) / 20;
         }
         if(!computer.compatible()){
             score = 1;
@@ -56,9 +56,9 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         if(ramAmount < 8)
             score -= (8 - ramAmount) * 2;
         else if(ramAmount > 8 && ramAmount < 17)
-            score += .0725 * (ramAmount - 8);
+            score += .0625 * (ramAmount - 8);
         else if(ramAmount > 17)
-            score += .05 * (ramAmount - 8);
+            score += .03 * (ramAmount - 8);
 
         if(computer.cpu.name.contains("Intel") && !(computer.cpu.shortname.contains("-5") || computer.cpu.shortname.contains("-6"))){
             score -= 2;
@@ -97,9 +97,9 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         }
         score += driveScore;
         double rawCpu = (1 - settings.multicore) * computer.cpu.singlecore +  (settings.multicore) * (computer.cpu.multicore / 2);
-        double adjustedCpu = 80* (settings.cpuIntensity / (settings.cpuIntensity + settings.gpuIntensity))* rawCpu / maxCpuScore();
+        double adjustedCpu = 10 + 60* (settings.cpuIntensity / (settings.cpuIntensity + settings.gpuIntensity))* rawCpu / maxCpuScore();
         double rawGpu = computer.gpu.fps + (computer.gpu.threedmark / 100);
-        double adjustedGpu = 80 * (settings.gpuIntensity / (settings.cpuIntensity + settings.gpuIntensity)) * (rawGpu / maxGpuScore());
+        double adjustedGpu = 10 + 60 * (settings.gpuIntensity / (settings.cpuIntensity + settings.gpuIntensity)) * (rawGpu / maxGpuScore());
         //Inflate the GPU score slightly
        // adjustedGpu  * ((35 - adjustedGpu) / 35);
         score += adjustedGpu;

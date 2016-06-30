@@ -2,6 +2,7 @@ package com.computerevaluator.models;
 
 import com.jcabi.aspects.Cacheable;
 import com.sun.istack.internal.Nullable;
+import org.json.JSONObject;
 
 /**
  * Created by erik on 6/14/16.
@@ -87,4 +88,33 @@ public class Computer{
                 '}';
         return str;
     }
+
+    public static Computer fromJson(JSONObject object){
+        Cpu cpu = Cpu.find(object.getString("cpu"));
+        Gpu gpu = Gpu.find(object.getString("gpu"));
+        Drive boot = Drive.find(object.getString("boot"));
+        Drive secondary = null;
+        if(object.has("secondary")){
+            secondary = Drive.find(object.getString("secondary"));
+        }
+        Motherboard motherboard = Motherboard.find(object.getString("motherboard"));
+        Psu psu = Psu.find(object.getString("power"));
+        Ram ram = Ram.find(object.getString("ram"));
+        return new Computer(cpu, gpu, boot, secondary, motherboard, psu,ram);
+    }
+
+    public String render(){
+        String json = cpu.render() + "," + gpu.render() + "," + motherboard.render() + "," + power.render() + "," + ram.render() + ",";
+        json += bootDrive.render().replace("drive\":", "boot\":") + ",";
+        if(secondaryDrive != null){
+            json += secondaryDrive.render().replace("drive\":", "secondary\":") + ",";
+            json += "\"secondaryDrive\" : true";
+        }else{
+            json += "\"secondaryDrive\" : false";
+        }
+        json += ",";
+        json += "\"price\":" + getPrice();
+        return json;
+    }
+
 }

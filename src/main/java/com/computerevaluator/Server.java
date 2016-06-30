@@ -23,7 +23,7 @@ public class Server{
         int timeOutMillis = 30000;
         threadPool(maxThreads, minThreads, timeOutMillis);
 
-        get("/status.json", ApiController::getStatus);
+        get("/api/:id", ApiController::getResult);
         get("/", ViewController::getIndex);
         post("/process", ViewController::process);
         get("/result/:id", ViewController::getResult);

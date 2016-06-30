@@ -1,6 +1,7 @@
 package com.computerevaluator.ai;
 
 import com.computerevaluator.models.Computer;
+import com.computerevaluator.models.Result;
 import com.computerevaluator.models.Settings;
 import com.computerevaluator.models.Size;
 import org.uncommons.maths.random.MersenneTwisterRNG;
@@ -37,7 +38,7 @@ public class Engine implements Runnable{
 
             engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
             });
-            Computer result = engine.evolve(600, 20, new Stagnation(140, true));
+            Computer result = engine.evolve(600, 20, new Stagnation(200, true));
             //  allTimeBest.updateIfBetter(result, new ComputerEvaluator(settings).getFitness(result, null));
             // result = allTimeBest.getComputer();
 
@@ -50,9 +51,8 @@ public class Engine implements Runnable{
                 j++;
                 System.out.println("Compatibility error");
             }else{
-                System.out.println("RESULT:");
-                System.out.println(result.toString());
-                System.out.println(new ComputerEvaluator(settings).getFitness(result,null));
+                System.out.println("Complete");
+                Result.addComputer(id, result);
             }
             if(j > 2){
                 break;

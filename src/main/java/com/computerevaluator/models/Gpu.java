@@ -36,7 +36,7 @@ public class Gpu extends Priced{
 
     public final String name;
 
-    private final String shortname;
+    public final String shortname;
 
     public final int fps;
 

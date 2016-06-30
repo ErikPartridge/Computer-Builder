@@ -87,6 +87,10 @@ public class Ram extends Priced{
         return new Ram(priced.prices, obj.getString("type"), obj.getInt("number"), obj.getInt("size"));
     }
 
+    public String getName(){
+        return number + "x" + size + "-" + type.replace("DDR", "");
+    }
+
     public String render(){
         String name = number + "x" + size + "GB" + " " + type;
         String shorter = number + "x" + size + "-" + type.replace("DDR","");
