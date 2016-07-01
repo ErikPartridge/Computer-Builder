@@ -1,6 +1,5 @@
 package com.computerevaluator.models;
 
-import com.sun.istack.internal.Nullable;
 import org.json.JSONObject;
 
 /**
@@ -36,7 +35,7 @@ public class Computer{
         return cPrice + gPrice+bPrice+sPrice+mPrice+pPrice+rPrice;
     }
 
-    public Computer(Cpu cpu, Gpu gpu, Drive bootDrive, @Nullable Drive secondaryDrive, Motherboard motherboard, Psu power, Ram ram){
+    public Computer(Cpu cpu, Gpu gpu, Drive bootDrive, Drive secondaryDrive, Motherboard motherboard, Psu power, Ram ram){
         this.cpu = cpu;
         this.gpu = gpu;
         this.bootDrive = bootDrive;

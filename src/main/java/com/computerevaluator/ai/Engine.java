@@ -38,7 +38,7 @@ public class Engine implements Runnable{
 
             engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
             });
-            Computer result = engine.evolve(600, 20, new Stagnation(200, true));
+            Computer result = engine.evolve(480, 20, new Stagnation(120, true));
             //  allTimeBest.updateIfBetter(result, new ComputerEvaluator(settings).getFitness(result, null));
             // result = allTimeBest.getComputer();
 

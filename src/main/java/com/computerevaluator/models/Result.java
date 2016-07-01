@@ -1,8 +1,6 @@
 package com.computerevaluator.models;
 
-import com.computerevaluator.models.Computer;
 import com.computerevaluator.services.Connection;
-import com.sun.javadoc.Doc;
 import org.bson.Document;
 import org.json.JSONObject;
 

@@ -40,12 +40,12 @@
                     </table>
                 </div>
             </div>
-            <div class="ui row">
+            <div v-if="done" class="ui row">
                 <div class="four wide column centered">
                     <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> </span>
                 </div>
             </div>
-            <div class="ui row">
+            <div v-if="done" class="ui row">
                 <div class="three wide column centered">
                     <span>&copy; Erik Partridge, 2016</span>
                 </div>
@@ -74,7 +74,7 @@
             success:function(data)
             {
                 if(!data['done']){
-                    setTimeout( update(), 500);
+                    setTimeout( update(), 1000);
                 }else{
                     v.$data = data;
                 }

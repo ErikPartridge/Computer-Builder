@@ -6,7 +6,6 @@ import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 import org.json.JSONObject;
 import com.computerevaluator.services.Connection;
-import sun.plugin2.gluegen.runtime.CPU;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
