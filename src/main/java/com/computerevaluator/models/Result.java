@@ -91,17 +91,12 @@ public class Result{
     }
 
     public String render(){
-        System.out.println("Started rendering");
         if(!finished || result == null){
-            System.out.println("Started rendering in block a");
             return "{\"done\":false}";
         }else{
-            System.out.println("Started rendering in block b");
             String json = "{" + "\"done\":true,";
             assert result != null;
-            System.out.println("Assertion passed");
             json += result.render() + "}";
-            System.out.println("Rendered result");
             return json;
         }
     }

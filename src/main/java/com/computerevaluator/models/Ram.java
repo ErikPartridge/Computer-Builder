@@ -61,10 +61,6 @@ public class Ram extends Priced{
 
     public static Price lowPrice (String ram) {
         Ram parsed = find(ram);
-        System.out.println(parsed);
-        System.out.println(parsed.prices.size());
-        System.out.println(parsed.prices);
-        System.out.println(parsed.getName());
         Price price = Price.low(parsed.prices);
 
         return price;
@@ -98,18 +94,14 @@ public class Ram extends Priced{
     public String render(){
         String name = number + "x" + size + "GB" + " " + type;
         String shorter = number + "x" + size + "-" + type.replace("DDR","");
-        System.out.println("Rendering prices");
         String json =  "\"ram\":{" +
                 "\"name\":\"" + name + "\"";
         json +=
                 ",\"median\":" + Math.round(medianPrice(shorter).doubleValue());
-        System.out.println("Rendering pricesb");
         json +=        ",\"low\":" + Math.round(lowPrice(shorter).price.doubleValue());
-        System.out.println("Rendering pricesc");
         json +=        ",\"source\":\"" + lowPrice(shorter).sourceStamp() + "\"" +
 
                 ",\"url\":\"";
-        System.out.println("affiliate code");
         if(lowPrice(shorter).affiliate != null && !lowPrice(shorter).affiliate.equals(""))
             json += lowPrice(shorter).affiliate + "\"";
         else
