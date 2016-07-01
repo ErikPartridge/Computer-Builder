@@ -48,8 +48,7 @@ public class ViewController{
 
         //Then start the thread
         Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, Size.ATX), result.id));
-        t.start();
-        t.setPriority(Thread.MAX_PRIORITY);
+        t.run();
         Result.save(result);
         res.redirect("/result/c" + result.id);
         return res;
