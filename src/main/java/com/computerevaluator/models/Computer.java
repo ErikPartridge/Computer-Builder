@@ -101,16 +101,22 @@ public class Computer{
     }
 
     public String render(){
+        System.out.println("Rendering 1");
         String json = cpu.render() + "," + gpu.render() + "," + motherboard.render() + "," + power.render() + "," + ram.render() + ",";
+        System.out.println("Rendering 2");
         json += bootDrive.render().replace("drive\":", "boot\":") + ",";
+        System.out.println("Rendering 3");
         if(secondaryDrive != null){
+            System.out.println("Rendering 4");
             json += secondaryDrive.render().replace("drive\":", "secondary\":") + ",";
             json += "\"secondaryDrive\" : true";
         }else{
             json += "\"secondaryDrive\" : false";
         }
+        System.out.println("Rendering 5");
         json += ",";
         json += "\"price\":" + getPrice();
+        System.out.println("Rendering 6");
         return json;
     }
 
