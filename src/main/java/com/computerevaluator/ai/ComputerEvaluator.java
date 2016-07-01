@@ -97,9 +97,9 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         }
         score += driveScore;
         double rawCpu = (1 - settings.multicore) * computer.cpu.singlecore +  (settings.multicore) * (computer.cpu.multicore / 2);
-        double adjustedCpu = 10 + 60* (settings.cpuIntensity / (settings.cpuIntensity + settings.gpuIntensity))* rawCpu / maxCpuScore();
+        double adjustedCpu = 20 + 40* (settings.cpuIntensity / (settings.cpuIntensity + settings.gpuIntensity))* rawCpu / maxCpuScore();
         double rawGpu = computer.gpu.fps + (computer.gpu.threedmark / 100);
-        double adjustedGpu = 10 + 60 * (settings.gpuIntensity / (settings.cpuIntensity + settings.gpuIntensity)) * (rawGpu / maxGpuScore());
+        double adjustedGpu = 20 + 40 * (settings.gpuIntensity / (settings.cpuIntensity + settings.gpuIntensity)) * (rawGpu / maxGpuScore());
         //Inflate the GPU score slightly
        // adjustedGpu  * ((35 - adjustedGpu) / 35);
         score += adjustedGpu;

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e074170-43bb-4126-be90-5a371ef6241c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
     </list>
     <ignored path="Computer-Builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,10 +50,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cpu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Cpu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="-1230">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,36 +82,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Motherboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Motherboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="345">
+              <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Psu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Psu.java">
+      <file leaf-file-name="ComputerEvaluator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,9 +170,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Priced.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/terms.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/Server.java" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Gpu.java" />
@@ -190,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/result.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ApiController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
       </list>
     </option>
   </component>
@@ -997,12 +994,12 @@
       <workItem from="1467217162309" duration="69000" />
       <workItem from="1467281453848" duration="8323000" />
       <workItem from="1467304672858" duration="1053000" />
-      <workItem from="1467376487775" duration="3228000" />
+      <workItem from="1467376487775" duration="3945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94881000" />
+    <option name="totallyTimeSpent" value="95598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
@@ -1396,26 +1393,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/terms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1496,16 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Cpu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1543,8 +1514,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="345">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Cpu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
           <folding />
         </state>
       </provider>
