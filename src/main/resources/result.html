@@ -78,8 +78,11 @@
                 }else{
                     console.log("Done processing data");
                     v.$data = data;
-                    data['done'] = true;
+                    v['done'] = true;
                 }
+            },
+            error:function(err){
+                console.log(err);
             }
         });
     }
