@@ -61,7 +61,10 @@ public class Ram extends Priced{
 
     public static Price lowPrice (String ram) {
         Ram parsed = find(ram);
+        System.out.println(parsed);
+        System.out.println(parsed.prices.size());
         Price price = Price.low(parsed.prices);
+
         return price;
     }
 
