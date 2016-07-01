@@ -91,7 +91,6 @@ public class Result{
     }
 
     public String render(){
-        System.out.println("Finished: " + finished);
         if(!finished || result == null){
             return "{\"done\":false}";
         }else{
