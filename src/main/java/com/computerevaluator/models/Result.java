@@ -71,6 +71,7 @@ public class Result{
         }
         Connection.resultDb.getCollection("results").updateOne(eq("uuid", id), set("computer", comp));
         Connection.resultDb.getCollection("results").updateOne(eq("uuid", id), set("done", true));
+        System.out.println("Updated status");
     }
 
     public static void save(Result result){
