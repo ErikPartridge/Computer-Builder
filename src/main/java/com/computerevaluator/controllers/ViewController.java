@@ -67,4 +67,19 @@ public class ViewController{
             return res;
         }
     }
+
+    public static Response getTerms(Request req, Response res){
+        try {
+            InputStream stream = ViewController.class.getClassLoader().getResourceAsStream("terms.html");
+            String html = IOUtils.toString(stream, "UTF-8");
+            stream.close();
+            res.status(200);
+            res.body(html);
+            return res;
+        } catch (IOException e){
+            System.out.println(e);
+            halt(500, "<html>Unable to read the html file, error thrown. Please try again soon.</html>");
+            return res;
+        }
+    }
 }

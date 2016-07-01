@@ -38,20 +38,11 @@
                         <tr><td>PSU</td><td>{{psu.name}}</td><td><a class="redurl" href="{{psu.url}}">${{psu.low}}</a> - {{psu.source}}</td></tr>
                         </tbody>
                     </table>
-                    <div class="ui raised segment">
-                        <p>This build will provide an exception gaming experience, compatible with 4K resolution on one screen, or 1080p on three. Disk speed is very good and should cause no delays or hiccups in loading. Some CPU limited games may struggle as the i3-6100 is sufficient for browsing and most gpu intensive games only. This is partnered with 16GB of RAM to give room for HD textures, and high quality power supply and motherboard to ensure reliability.</p>
-                        <ul>
-                            <li>4K Compatible</li>
-                            <li>Overkill for 1080p</li>
-                            <li>Not VR Compatible</li>
-                            <li>Bottleneck: CPU</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="ui row">
                 <div class="four wide column centered">
-                    <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> &bull; <a class="redurl" href="/faq">FAQ</a> </span>
+                    <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> </span>
                 </div>
             </div>
             <div class="ui row">
@@ -92,5 +83,22 @@
     }
     update();
 </script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.theaipc.com","*.theaipc.com"]]);
+        _paq.push(["setDoNotTrack", true]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.computerevaluator.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 2]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="//stats.computerevaluator.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
 </body>
 </html>

@@ -1,6 +1,5 @@
 package com.computerevaluator.models;
 
-import com.jcabi.aspects.Cacheable;
 import com.sun.istack.internal.Nullable;
 import org.json.JSONObject;
 
@@ -23,7 +22,6 @@ public class Computer{
 
     public Ram ram;
 
-    @Cacheable()
     public double getPrice(){
         double cPrice =  cpu.lowPrice().price.doubleValue();
         double gPrice = gpu.lowPrice().price.doubleValue();

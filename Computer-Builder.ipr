@@ -324,28 +324,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.jcabi:jcabi-aspects:0.22.5">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-aspects/0.22.5/jcabi-aspects-0.22.5.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-aspects/0.22.5/jcabi-aspects-0.22.5-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-aspects/0.22.5/jcabi-aspects-0.22.5-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.jcabi:jcabi-log:0.17">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-log/0.17/jcabi-log-0.17.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-log/0.17/jcabi-log-0.17-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jcabi/jcabi-log/0.17/jcabi-log-0.17-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.sparkjava:spark-core:2.5">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/sparkjava/spark-core/2.5/spark-core-2.5.jar!/" />
@@ -390,17 +368,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: javax.validation:validation-api:1.1.0.Final">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: jfree:jcommon:1.0.12">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/jfree/jcommon/1.0.12/jcommon-1.0.12.jar!/" />
@@ -412,15 +379,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/jfree/jcommon/1.0.12/jcommon-1.0.12-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: jfree:jfreechart:1.0.8">
+    <library name="Maven: jfree:jfreechart:1.0.8a">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8/jfreechart-1.0.8.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8a/jfreechart-1.0.8a.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8/jfreechart-1.0.8-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8a/jfreechart-1.0.8a-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8/jfreechart-1.0.8-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.8a/jfreechart-1.0.8a-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.antlr:antlr4-annotations:4.2.2">
@@ -465,17 +432,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.aspectj:aspectjrt:1.8.7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.7/aspectjrt-1.8.7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.7/aspectjrt-1.8.7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.8.7/aspectjrt-1.8.7-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.eclipse.jetty.websocket:websocket-api:9.3.6.v20151106">
@@ -676,15 +632,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.uncommons.maths:uncommons-maths:1.2.2">
+    <library name="Maven: org.uncommons.maths:uncommons-maths:1.2.2a">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2/uncommons-maths-1.2.2.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2/uncommons-maths-1.2.2-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2/uncommons-maths-1.2.2-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.uncommons.watchmaker:watchmaker-framework:0.7.1">

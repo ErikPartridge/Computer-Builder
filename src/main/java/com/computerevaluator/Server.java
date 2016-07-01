@@ -17,6 +17,7 @@ public class Server{
 
     public static void main(String[] args){
         staticFiles.location("/public");
+        port(5757);
         //staticFiles.expireTime(600);
         int maxThreads = 12;
         int minThreads = 1;
@@ -25,6 +26,7 @@ public class Server{
 
         get("/api/:id", ApiController::getResult);
         get("/", ViewController::getIndex);
+        get("/terms", ViewController::getTerms);
         post("/process", ViewController::process);
         get("/result/:id", ViewController::getResult);
         after((request, response) -> response.header("Content-Encoding", "gzip"));
