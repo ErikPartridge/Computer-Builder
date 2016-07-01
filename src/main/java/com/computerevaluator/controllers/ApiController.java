@@ -14,6 +14,7 @@ public class ApiController{
         res.type("application/json");
         res.status(200);
         Result result = Result.find(id);
+        System.out.println(result);
         res.body(result.render());
         return res;
     }
