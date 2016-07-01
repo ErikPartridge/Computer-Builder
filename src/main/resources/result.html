@@ -74,8 +74,9 @@
             success:function(data)
             {
                 if(!data['done']){
-                    setTimeout( update(), 5000);
+                    setTimeout( update(), 500);
                 }else{
+                    console.log("Done processing data");
                     v.$data = data;
                     data['done'] = true;
                 }
