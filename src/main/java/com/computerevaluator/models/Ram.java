@@ -95,10 +95,13 @@ public class Ram extends Priced{
         String shorter = number + "x" + size + "-" + type.replace("DDR","");
         System.out.println("Rendering prices");
         String json =  "\"ram\":{" +
-                "\"name\":\"" + name + "\"" +
-                ",\"median\":" + Math.round(medianPrice(shorter).doubleValue()) +
-                ",\"low\":" + Math.round(lowPrice(shorter).price.doubleValue()) +
-                ",\"source\":\"" + lowPrice(shorter).sourceStamp() + "\"" +
+                "\"name\":\"" + name + "\"";
+        json +=
+                ",\"median\":" + Math.round(medianPrice(shorter).doubleValue());
+        System.out.println("Rendering pricesb");
+        json +=        ",\"low\":" + Math.round(lowPrice(shorter).price.doubleValue());
+        System.out.println("Rendering pricesc");
+        json +=        ",\"source\":\"" + lowPrice(shorter).sourceStamp() + "\"" +
 
                 ",\"url\":\"";
         System.out.println("affiliate code");

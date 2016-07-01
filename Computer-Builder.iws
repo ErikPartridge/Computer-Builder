@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Ram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+              <caret line="103" column="82" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -992,12 +992,12 @@
       <workItem from="1467217162309" duration="69000" />
       <workItem from="1467281453848" duration="8323000" />
       <workItem from="1467304672858" duration="1053000" />
-      <workItem from="1467376487775" duration="7770000" />
+      <workItem from="1467376487775" duration="7870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99423000" />
+    <option name="totallyTimeSpent" value="99523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
@@ -1537,7 +1537,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Ram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+          <caret line="103" column="82" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
