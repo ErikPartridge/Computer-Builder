@@ -47,9 +47,9 @@ public class ViewController{
         int budget = Integer.parseInt(req.queryParams("budget"));
 
         //Then start the thread
-        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, Size.ATX), result.id));
-        t.run();
         Result.save(result);
+        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, Size.ATX), result.id));
+        t.start();
         res.redirect("/result/c" + result.id);
         return res;
     }
