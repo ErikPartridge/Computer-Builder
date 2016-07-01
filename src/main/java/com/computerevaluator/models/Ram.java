@@ -64,6 +64,7 @@ public class Ram extends Priced{
         System.out.println(parsed);
         System.out.println(parsed.prices.size());
         System.out.println(parsed.prices);
+        System.out.println(parsed.getName());
         Price price = Price.low(parsed.prices);
 
         return price;
