@@ -101,6 +101,7 @@ public class Computer{
     }
 
     public String render(){
+        System.out.println(this.toString());
         String json = cpu.render() + "," + gpu.render() + "," + motherboard.render() + "," + power.render() + "," + ram.render() + ",";
         json += bootDrive.render().replace("drive\":", "boot\":") + ",";
         if(secondaryDrive != null){
