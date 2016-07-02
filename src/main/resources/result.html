@@ -93,8 +93,8 @@
             success:function(data)
             {
                 if(!data['done']){
-                    time += 2750;
-                    setTimeout( update(), 2750);
+                    time += 10000;
+                    setTimeout( update(), 10000);
                 }else{
                     console.log("Done processing data");
                     v.$data = data;
