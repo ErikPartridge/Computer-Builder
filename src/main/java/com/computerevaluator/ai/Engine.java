@@ -41,7 +41,7 @@ public class Engine implements Runnable{
                     System.out.println("Generation : " + populationData.getGenerationNumber());
                 }
             });
-            Computer result = engine.evolve(480, 20, new Stagnation(120, true));
+            Computer result = engine.evolve(250, 20, new Stagnation(80, true));
             //  allTimeBest.updateIfBetter(result, new ComputerEvaluator(settings).getFitness(result, null));
             // result = allTimeBest.getComputer();
 
