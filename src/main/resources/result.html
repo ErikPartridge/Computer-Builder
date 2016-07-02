@@ -19,8 +19,10 @@
         <div class="ui stackable grid">
             <div class="ui row centered">
                 <div class="eight wide column center aligned">
-                    <h1>The Best Match For You</h1>
-                    <p class="small italic">
+                    <h1 v-if="done">The Best Match For You</h1>
+                    <h1 v-if="!done">Thinking...</h1>
+                    <p v-if="!done" class="small italic">It may take up to two minutes for the AI to find your best result do to the complexity of the search.</p>
+                    <p v-if="done" class="small italic">
                     While the AI makes an effort to select only compatible parts, you should always verify that all parts are compatible with each other, and that the PSU provides sufficient power. Cases are currently not suggested or factored into the price.</p>
                     <h2 v-if="done">${{price.toFixed(2)}}</h2>
                 </div>
@@ -58,6 +60,22 @@
             <div class="sk-cube3 sk-cube"></div>
         </div>
     </div>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.theaipc.com","*.theaipc.com"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.computerevaluator.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 2]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <noscript><p><img src="//stats.computerevaluator.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
 <script type="application/javascript">
     var v = new Vue({
         el: '#app',
@@ -67,6 +85,7 @@
         }
     });
     function update(){
+        var time = 0;
         $.ajax({
             type:"get",
             url:"/api/" + window.location.pathname.split("/c")[1],
@@ -74,11 +93,13 @@
             success:function(data)
             {
                 if(!data['done']){
+                    time += 500;
                     setTimeout( update(), 500);
                 }else{
                     console.log("Done processing data");
                     v.$data = data;
                     v['done'] = true;
+                    _paq.push([['trackEvent', 'Results', 'Load', 'Complete', time]]);
                 }
             },
             error:function(err){
