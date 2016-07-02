@@ -21,7 +21,7 @@
                 <div class="eight wide column center aligned">
                     <h1 v-if="done">The Best Match For You</h1>
                     <h1 v-if="!done">Thinking...</h1>
-                    <p v-if="!done" class="small italic">It may take up to two minutes for the AI to find your best result do to the complexity of the search.</p>
+                    <p v-if="!done" class="small italic">It may take up to two minutes for the AI to find your best result do to the complexity of the search. This is a static URL, however, so you can come back at any time!</p>
                     <p v-if="done" class="small italic">
                     While the AI makes an effort to select only compatible parts, you should always verify that all parts are compatible with each other, and that the PSU provides sufficient power. Cases are currently not suggested or factored into the price.</p>
                     <h2 v-if="done">${{price.toFixed(2)}}</h2>
