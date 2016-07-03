@@ -13,7 +13,9 @@ import org.uncommons.watchmaker.framework.selection.*;
 import org.uncommons.watchmaker.framework.termination.GenerationCount;
 import org.uncommons.watchmaker.framework.termination.Stagnation;
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by erik on 6/14/16.
@@ -44,7 +46,7 @@ public class Engine implements Runnable{
             System.out.println("Evaluator done");
             RouletteWheelSelection rws = new RouletteWheelSelection();
             System.out.println("Roulette wheel done");
-            MersenneTwisterRNG rng = new MersenneTwisterRNG();
+            Random rng = new SecureRandom();
             System.out.println("Random done");
 
             EvolutionEngine<Computer> engine = new ComputerEvolutionEngine(cf, ev, evaluator, rws, rng);
