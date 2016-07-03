@@ -20,7 +20,7 @@ public class Server{
         staticFiles.location("/public");
         port(5757);
         //staticFiles.expireTime(600);
-        int maxThreads = 1;
+        int maxThreads = 2;
         int minThreads = 1;
         int timeOutMillis = 30000;
         threadPool(maxThreads, minThreads, timeOutMillis);
