@@ -2,6 +2,7 @@ package com.computerevaluator;
 
 import com.computerevaluator.controllers.ApiController;
 import com.computerevaluator.controllers.ViewController;
+import com.computerevaluator.services.Connection;
 
 
 import static spark.Spark.*;
@@ -19,11 +20,12 @@ public class Server{
         staticFiles.location("/public");
         port(5757);
         //staticFiles.expireTime(600);
-        int maxThreads = 12;
+        int maxThreads = 1;
         int minThreads = 1;
         int timeOutMillis = 30000;
         threadPool(maxThreads, minThreads, timeOutMillis);
-
+        Connection.database.getName();
+        Connection.resultDb.getName();
         get("/api/:id", ApiController::getResult);
         get("/", ViewController::getIndex);
         get("/terms", ViewController::getTerms);
