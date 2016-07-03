@@ -6,6 +6,7 @@
     <script src="/lib/jquery/dist/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Trirong" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <title>Artisanal AI PCs</title>
     <link href="/lib/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css"/>
     <script src="/lib/semantic/dist/semantic.min.js"></script>
@@ -19,8 +20,8 @@
         <div class="ui stackable grid">
             <div class="ui row centered">
                 <div class="eight wide column center aligned">
-                    <h1 v-if="done">The Best Match For You</h1>
-                    <h1 v-if="!done">Thinking...</h1>
+                    <h1 class="top-header" v-if="done">The Best Match For You</h1>
+                    <h1 class="top-header" v-if="!done">Thinking...</h1>
                     <h2 v-if="!done">This process may take up to 3 minutes</h2>
                     <h4 v-if="!done">You may return to this page at any time. While you wait, perhaps pick out a case from <a class="redurl" href="http://amzn.to/29hb7iJ">this lovely selection?</a> </h4>
                     <p v-if="done" class="small italic">
@@ -30,7 +31,7 @@
             </div>
             <div v-if="done" class="ui row">
                 <div class="nine wide column centered">
-                    <table style="width: 100%;" class="ui very basic collapsing celled table">
+                    <table id="results-table" style="width: 100%;" class="ui very basic collapsing celled table">
                         <tbody>
                         <tr><td>CPU</td><td>{{cpu.name}}</td><td><a class="redurl" href="{{cpu.url}}">${{cpu.low}}</a> - {{cpu.source}}</td></tr>
                         <tr><td>GPU</td><td>{{gpu.name}}</td><td><a class="redurl" href="{{gpu.url}}">${{gpu.low}}</a> - {{gpu.source}}</td></tr>
@@ -45,12 +46,7 @@
             </div>
             <div v-if="done" class="ui row">
                 <div class="four wide column centered">
-                    <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> </span>
-                </div>
-            </div>
-            <div v-if="done" class="ui row">
-                <div class="three wide column centered">
-                    <span>&copy; Erik Partridge, 2016</span>
+                    <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> &bull;&nbsp;&copy; Erik Partridge, 2016 </span>
                 </div>
             </div>
         </div>

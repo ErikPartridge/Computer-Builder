@@ -6,6 +6,7 @@
     <script src="/lib/jquery/dist/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Trirong" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <title>Artisanal AI PCs</title>
     <link href="/lib/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css"/>
     <script src="/lib/semantic/dist/semantic.min.js"></script>
@@ -22,12 +23,12 @@
         <div class="ui grid">
             <div class="ui row centered">
                 <div class="eight wide column centered center aligned">
-                    <h1>Artisanal AI Designed PCs</h1>
+                    <h1 class="top-header" id="index-header">Artisanal AI Designed PCs</h1>
                 </div>
             </div>
-            <div class="ui row">
+            <div id="row-two-index" class="ui row">
                 <div class="eight wide column centered center aligned">
-                    <label for="budget">Select Your Budget:</label>
+                    <label id="budget-label" for="budget">Select Your Budget:</label>
                     <p class="small italic">Approximate: the program may return options costing up to $50 more, if they are significantly better</p>
                     <input type="range" id="budget" name="budget" min="400" max="2000" step="10" value="800" />
                 </div>
@@ -50,27 +51,27 @@
             </div>
             <div class="ui row">
                 <div class="ten wide column centered center aligned">
-                    <button type="button" id="programming-preset" class="ui secondary button">
+                    <button style="font-weight:normal;font-size: 16px;" type="button" id="programming-preset" class="ui secondary button">
                         Programming
                     </button>
-                    <button type="button" id="editing-preset" class="ui secondary button">
+                    <button style="font-weight:normal;font-size: 16px;" type="button" id="editing-preset" class="ui secondary button">
                         Editing
                     </button>
-                    <button type="button" id="gaming-preset" class="ui secondary button">
+                    <button style="font-weight:normal;font-size: 16px;" type="button" id="gaming-preset" class="ui secondary button">
                         Gaming
                     </button>
-                    <button type="button" id="browsing-preset" class="ui secondary button">
+                    <button  style="font-weight:normal;font-size: 16px;" type="button" id="browsing-preset" class="ui secondary button">
                         Browsing
                     </button>
-                    <button type="button" id="multi-preset" class="ui secondary button">
+                    <button style="font-weight:normal;font-size: 16px;" type="button" id="multi-preset" class="ui secondary button">
                         Multi-Purpose
                     </button>
                 </div>
             </div>
             <div class="ui row">
                 <div class="three wide column centered center aligned">
-                    <button type="submit" id="submit" class="ui primary button">
-                        BUILD!
+                    <button style="font-weight:normal;font-size: 18px;background-color:#90EE90;" type="submit" id="submit" class="ui button">
+                        BUILD
                     </button>
                 </div>
             </div>
@@ -130,12 +131,7 @@
             </div>
             <div class="ui row">
                 <div class="four wide column centered">
-                    <span><a class="redurl" href="/terms">Terms &amp; Privacy</a></span>
-                </div>
-            </div>
-            <div class="ui row">
-                <div class="three wide column centered">
-                    <span>&copy; Erik Partridge, 2016</span>
+                    <span class="center aligned"><a class="redurl" href="/terms">Terms &amp; Privacy</a>&nbsp;&bull;&nbsp;&copy; Erik Partridge, 2016</span>
                 </div>
             </div>
         </div>
