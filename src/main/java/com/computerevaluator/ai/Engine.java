@@ -31,6 +31,7 @@ public class Engine implements Runnable{
 
     //@Override
     public void run(){
+        System.out.println("Running");
         int j = 0;
         for(int i = 0; i < 1; i++ ){
             //final Result allTimeBest = new Result();
