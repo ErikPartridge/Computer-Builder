@@ -47,7 +47,7 @@ public class Engine implements Runnable{
             MersenneTwisterRNG rng = new MersenneTwisterRNG();
             System.out.println("Random done");
 
-            EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(cf, ev, evaluator, rws, rng);
+            EvolutionEngine<Computer> engine = new ComputerEvolutionEngine(cf, ev, evaluator, rws, rng);
 
             System.out.println("engine created");
             engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
