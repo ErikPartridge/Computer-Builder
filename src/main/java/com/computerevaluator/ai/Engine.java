@@ -37,6 +37,7 @@ public class Engine implements Runnable{
             //final Result allTimeBest = new Result();
             EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(new ComputerFactory(),new SplitEvolution<Computer>(new ComputerCrossover(1), new Replacement<Computer>(new ComputerFactory(), new Probability(.9)), .94), (new ComputerEvaluator(settings)),new RouletteWheelSelection(), new MersenneTwisterRNG());
 
+            System.out.println("engine created");
             engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
                 if(populationData.getGenerationNumber() % 100 == 0){
                     System.out.println("Generation : " + populationData.getGenerationNumber());
