@@ -17,6 +17,7 @@ public class ComputerFactory extends AbstractCandidateFactory<Computer>{
     //private Settings settings;
 
     public ComputerFactory(){//Settings s){
+        System.out.println("Constructing the factory");
         //this.settings = s;
     }
 
