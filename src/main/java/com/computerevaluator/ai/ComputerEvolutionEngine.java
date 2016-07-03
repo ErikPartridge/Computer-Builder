@@ -13,7 +13,6 @@ public class ComputerEvolutionEngine extends GenerationalEvolutionEngine<Compute
 
     public ComputerEvolutionEngine(CandidateFactory<Computer> candidateFactory, EvolutionaryOperator<Computer> evolutionScheme, FitnessEvaluator<? super Computer> fitnessEvaluator, SelectionStrategy<? super Computer> selectionStrategy, Random rng){
         super(candidateFactory, evolutionScheme, fitnessEvaluator, selectionStrategy, rng);
-        System.out.println("Completed construction");
     }
 
     public ComputerEvolutionEngine(CandidateFactory<Computer> candidateFactory, EvolutionaryOperator<Computer> evolutionScheme, InteractiveSelection<Computer> selectionStrategy, Random rng){

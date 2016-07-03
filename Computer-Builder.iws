@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e074170-43bb-4126-be90-5a371ef6241c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
     </list>
     <ignored path="Computer-Builder.iws" />
@@ -26,13 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="56">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <element signature="e#1417#1427#0" expanded="true" />
+                <element signature="e#1322#1332#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,7 +54,7 @@
       <file leaf-file-name="ComputerEvaluator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1271">
+            <state relative-caret-position="821">
               <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
               <folding />
             </state>
@@ -125,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputerEvolutionEngine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComputerEvolutionEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,8 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/result.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java" />
       </list>
     </option>
   </component>
@@ -1000,12 +1001,12 @@
       <workItem from="1467304672858" duration="1053000" />
       <workItem from="1467376487775" duration="9960000" />
       <workItem from="1467493869652" duration="1603000" />
-      <workItem from="1467555528767" duration="2299000" />
+      <workItem from="1467555528767" duration="2406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105515000" />
+    <option name="totallyTimeSpent" value="105622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="720" extended-state="6" />
@@ -1172,7 +1173,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1417#1427#0" expanded="true" />
+            <element signature="e#1322#1332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1192,7 +1193,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1417#1427#0" expanded="true" />
+            <element signature="e#1322#1332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1209,7 +1210,7 @@
         <state relative-caret-position="405">
           <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
-            <element signature="e#1417#1427#0" expanded="true" />
+            <element signature="e#1322#1332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1278,7 +1279,7 @@
         <state relative-caret-position="435">
           <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding>
-            <element signature="e#1417#1427#0" expanded="true" />
+            <element signature="e#1322#1332#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1540,9 +1541,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#1322#1332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1271">
+        <state relative-caret-position="821">
           <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
           <folding />
         </state>
@@ -1550,20 +1561,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding>
-            <element signature="e#1417#1427#0" expanded="true" />
           </folding>
         </state>
       </provider>
