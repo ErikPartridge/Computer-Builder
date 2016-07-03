@@ -34,8 +34,20 @@ public class Engine implements Runnable{
         System.out.println("Running");
         int j = 0;
         for(int i = 0; i < 1; i++ ){
+            System.out.println("In the loop");
             //final Result allTimeBest = new Result();
-            EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(new ComputerFactory(),new SplitEvolution<Computer>(new ComputerCrossover(1), new Replacement<Computer>(new ComputerFactory(), new Probability(.9)), .94), (new ComputerEvaluator(settings)),new RouletteWheelSelection(), new MersenneTwisterRNG());
+            ComputerFactory cf = new ComputerFactory();
+            System.out.println("Factory done");
+            SplitEvolution<Computer> ev = new SplitEvolution<Computer>(new ComputerCrossover(1), new Replacement<Computer>(cf, new Probability(.9)), .94);
+            System.out.println("Evolution");
+            ComputerEvaluator evaluator = new ComputerEvaluator(settings);
+            System.out.println("Evaluator done");
+            RouletteWheelSelection rws = new RouletteWheelSelection();
+            System.out.println("Roulette wheel done");
+            MersenneTwisterRNG rng = new MersenneTwisterRNG();
+            System.out.println("Random done");
+
+            EvolutionEngine<Computer> engine = new GenerationalEvolutionEngine<Computer>(cf, ev, evaluator, rws, rng);
 
             System.out.println("engine created");
             engine.addEvolutionObserver((PopulationData<? extends Computer> populationData) -> {
