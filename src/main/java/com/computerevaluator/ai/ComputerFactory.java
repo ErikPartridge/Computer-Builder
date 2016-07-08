@@ -25,7 +25,7 @@ public class ComputerFactory extends AbstractCandidateFactory<Computer>{
         List<Cpu> cpuList = Cpu.list();
         Cpu cpu = cpuList.get(random.nextInt(cpuList.size()));
         Gpu gpu;
-        if(random.nextDouble() < 0 && cpu.integratedGraphics){
+        if(random.nextDouble() < 0.02 && cpu.integratedGraphics){
             gpu = new IntegratedGraphics();
         }else{
             List<Gpu> gpuList = Gpu.list();

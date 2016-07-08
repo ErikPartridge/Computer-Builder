@@ -43,11 +43,17 @@ public class Computer{
         this.motherboard = motherboard;
         this.power = power;
         this.ram = ram;
+        if(secondaryDrive != null && secondaryDrive.reads > bootDrive.reads){
+            this.bootDrive = secondaryDrive;
+            this.secondaryDrive = bootDrive;
+        }
     }
 
     public boolean motherboardCompatible(){
         return this.cpu.socket.equals(this.motherboard.socket);
     }
+
+
 
     public boolean ramCompatible(){
        return this.cpu.ram.contains(this.ram.type) && this.motherboard.ram.contains(this.ram.type);
@@ -60,7 +66,7 @@ public class Computer{
     public int powerConsumption(){
         int basePower = 140;
         //Give some buffers
-        basePower += this.gpu.power * 1.2;
+        basePower += this.gpu.power * 1.4;
         basePower += this.cpu.power * 1.2;
         basePower *= 1.1;
         return basePower;
@@ -113,8 +119,8 @@ public class Computer{
         }else{
             json += "\"secondaryDrive\" : false";
         }
-        json += ",";
-        json += "\"price\":" + getPrice();
+        //json += "";
+        //json += "\"price\":" + getPrice() + "";
         return json;
     }
 

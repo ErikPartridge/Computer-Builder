@@ -13,6 +13,7 @@
     <link href="/style.css" rel="stylesheet" type="text/css"/>
     <script src="/lib/humanize-plus/dist/humanize.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"></script>
+    <script src="//www.anrdoezrs.net/am/8108375/include/joined/generate/onLoad/impressions/page/am.js"></script>
     <title>We're Thinking</title>
 </head>
 <body>
@@ -22,10 +23,10 @@
                 <div class="eight wide column center aligned">
                     <h1 class="top-header" v-if="done">The Best Match For You</h1>
                     <h1 class="top-header" v-if="!done">Thinking...</h1>
-                    <h2 v-if="!done">This process may take up to 3 minutes</h2>
+                    <h2 v-if="!done">This process may take up to 20 seconds</h2>
                     <h4 v-if="!done">You may return to this page at any time. While you wait, perhaps pick out a case from <a class="redurl" href="http://amzn.to/29hb7iJ">this lovely selection?</a> </h4>
                     <p v-if="done" class="small italic">
-                    While the AI makes an effort to select only compatible parts, you should always verify that all parts are compatible with each other, and that the PSU provides sufficient power. Cases are currently not suggested or factored into the price.</p>
+                    Always verify that all parts are compatible with each other, and that the PSU provides sufficient power.</p>
                     <h2 v-if="done">${{price.toFixed(2)}}</h2>
                 </div>
             </div>
@@ -40,6 +41,8 @@
                         <tr><td>Motherboard</td><td>{{motherboard.name}}</td><td><a class="redurl" href="{{motherboard.url}}">${{motherboard.low}}</a> - {{motherboard.source}} </td></tr>
                         <tr><td>Ram</td><td>{{ram.name}}</td><td><a class="redurl" href="{{ram.url}}">${{ram.low}}</a> - {{ram.source}}</td></tr>
                         <tr><td>PSU</td><td>{{psu.name}}</td><td><a class="redurl" href="{{psu.url}}">${{psu.low}}</a> - {{psu.source}}</td></tr>
+                        <tr v-if="caseExists"><td>Case</td><td>{{case.name}}</td><td><a class="redurl" href="{{case.url}}">${{case.low}}</a> - {{case.source}}</td></tr>
+                        <tr v-if="monitorExists"><td>Monitor</td><td>{{monitor.name}}</td><td><a class="redurl" href="{{monitor.url}}">${{monitor.low}}</a> - {{monitor.source}}</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -57,6 +60,16 @@
             <div class="sk-cube3 sk-cube"></div>
         </div>
     </div>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80421750-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <!-- Piwik -->
     <script type="text/javascript">
         var _paq = _paq || [];
@@ -80,6 +93,7 @@
             done : false,
             result : {}
         }
+
     });
     function update(){
         var time = 0;

@@ -141,6 +141,14 @@ public class Motherboard extends Priced{
         }
     }
 
+    public boolean overclock(){
+        if(name.matches(".+Z\\d\\d\\d.+")){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     public String render(){
         String json =  "\"motherboard\":{" +
                 "\"name\":\"" + name + "\"" +

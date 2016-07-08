@@ -2,11 +2,12 @@
     font-family: 'Josefin Sans', serif!important;
 }
 .small{
-    font-size: 12px;
+    font-size: 1.8vh;
     color: grey;
     font-family: 'Raleway', sans-serif !important;
 }
 .top-header{
+    font-size: 4.5vh;
     padding-top: 12px;
 }
 
@@ -115,14 +116,30 @@
 }
 
 .budget-value{
-    font-size:  18px;
+    font-size:  3.2vh;
 }
 
 #budget-label{
-    font-size: 16px;
+    font-size: 2.5vh;
 }
 
 #row-two-index{
     margin-top: 0px;
     padding-top: 0px;
 }
+
+.monitor-label{
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+#monitor-label{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.preset-button{
+    font-weight:normal !important;
+    font-size: 2.7vh !important;
+}
+

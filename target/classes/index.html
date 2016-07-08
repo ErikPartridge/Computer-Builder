@@ -20,7 +20,7 @@
 <body>
     <div class="ui container">
         <form action="/process" method="post">
-        <div class="ui grid">
+        <div class="ui stackable grid">
             <div class="ui row centered">
                 <div class="eight wide column centered center aligned">
                     <h1 class="top-header" id="index-header">Artisanal AI Designed PCs</h1>
@@ -29,8 +29,60 @@
             <div id="row-two-index" class="ui row">
                 <div class="eight wide column centered center aligned">
                     <label id="budget-label" for="budget">Select Your Budget:</label>
-                    <p class="small italic">Approximate: the program may return options costing up to $50 more, if they are significantly better</p>
-                    <input type="range" id="budget" name="budget" min="400" max="2000" step="10" value="800" />
+                    <p class="small italic">An approximate number-- the AI may return significantly better results costing $50 more.</p>
+                    <input type="range" id="budget" name="budget" min="450" max="2500" step="10" value="1000" />
+                </div>
+            </div>
+            <div class="ui row">
+                <div class="three wide column">
+
+                </div>
+                <div class="two wide column">
+                    <label id="monitor-label">Include a monitor?</label>
+                </div>
+                    <div class="two wide column">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="monitor" value="no">
+                            <label class="monitor-label">No, I have one</label>
+                        </div>
+                    </div>
+                    <div class="two wide column">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="monitor" value="tens" checked="checked">
+                            <label class="monitor-label">Yes, 1080p (20-24")</label>
+                        </div>
+                    </div>
+                    <div class="two wide column">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="monitor" value="tenl">
+                            <label class="monitor-label">Yes, 1080p (25-30")</label>
+                        </div>
+                    </div>
+                    <div class="two wide column">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="monitor" value="four">
+                            <label class="monitor-label">Yes, 4K (24-30")</label>
+                        </div>
+                    </div>
+                </div>
+            <div class="ui row">
+                <div class="five wide column">
+
+                </div>
+                <div class="two wide column">
+                    <label id="case-label">Case Size:</label>
+                </div>
+                <div class="two wide column">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="case" checked="checked" value="MicroATX">
+                        <label class="monitor-label">MicroATX (Normal)</label>
+                    </div>
+                </div>
+                <div class="two wide column">
+                    <div class="ui radio checkbox">
+                        <input type="radio" name="case" value="ATX">
+                        <label class="monitor-label">ATX (Large)</label>
+                    </div>
                 </div>
             </div>
             <div class="ui fifteen column row">
@@ -51,26 +103,26 @@
             </div>
             <div class="ui row">
                 <div class="ten wide column centered center aligned">
-                    <button style="font-weight:normal;font-size: 16px;" type="button" id="programming-preset" class="ui secondary button">
+                    <button type="button" id="programming-preset" class=" ui secondary button preset-button ">
                         Programming
                     </button>
-                    <button style="font-weight:normal;font-size: 16px;" type="button" id="editing-preset" class="ui secondary button">
+                    <button type="button" id="editing-preset" class="preset-button ui secondary button">
                         Editing
                     </button>
-                    <button style="font-weight:normal;font-size: 16px;" type="button" id="gaming-preset" class="ui secondary button">
+                    <button type="button" id="gaming-preset" class="preset-button ui secondary button">
                         Gaming
                     </button>
-                    <button  style="font-weight:normal;font-size: 16px;" type="button" id="browsing-preset" class="ui secondary button">
+                    <button type="button" id="browsing-preset" class="preset-button ui secondary button">
                         Browsing
                     </button>
-                    <button style="font-weight:normal;font-size: 16px;" type="button" id="multi-preset" class="ui secondary button">
+                    <button type="button" id="multi-preset" class="preset-button ui secondary button">
                         Multi-Purpose
                     </button>
                 </div>
             </div>
             <div class="ui row">
                 <div class="three wide column centered center aligned">
-                    <button style="font-weight:normal;font-size: 18px;background-color:#90EE90;" type="submit" id="submit" class="ui button">
+                    <button style="font-weight:normal;font-size: 3vh;background-color:#90EE90;" type="submit" id="submit" class="ui button">
                         BUILD
                     </button>
                 </div>
@@ -89,7 +141,6 @@
             <div class="ui row">
                 <div class="six wide column centered center aligned">
                     <h2>Adjust To Your Heart's Content</h2>
-                    <p class="italic small">Hit the build button above when you're done, it'll keep your settings.</p>
                 </div>
             </div>
             <div class="ui nine column row center aligned centered">
@@ -142,7 +193,7 @@
             $('#cpu').val('0.85').change();
             $('#gpu').val('0.45').change();
             $('#disk').val('0.65').change();
-            $('#multi').val('0.7').change();
+            $('#multi').val('0.9').change();
             $('#space').val('0.3').change();
         });
         $('#editing-preset').click(function(){
@@ -153,17 +204,17 @@
             $('#space').val('0.4').change();
         });
         $('#gaming-preset').click(function(){
-            $('#cpu').val('.4').change();
-            $('#gpu').val('1.0').change();
-            $('#disk').val('0.7').change();
-            $('#multi').val('0.3').change();
+            $('#cpu').val('.6').change();
+            $('#gpu').val('.85').change();
+            $('#disk').val('0.6').change();
+            $('#multi').val('0.5').change();
             $('#space').val('0.65').change();
         });
         $('#browsing-preset').click(function(){
             $('#cpu').val('.5').change();
             $('#gpu').val('.3').change();
             $('#disk').val('0.8').change();
-            $('#multi').val('0.5').change();
+            $('#multi').val('0.7').change();
             $('#space').val('0.3').change();
         });
         $('#multi-preset').click(function(){
@@ -242,6 +293,16 @@
 
     });
 </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-80421750-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
     <!-- Piwik -->
     <script type="text/javascript">
         var _paq = _paq || [];

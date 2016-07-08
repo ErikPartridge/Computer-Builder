@@ -50,7 +50,7 @@ public class Engine implements Runnable{
                     System.out.println("Generation : " + populationData.getGenerationNumber());
                 }
             });
-            Computer result = engine.evolve(480, 20, new Stagnation(120, true));
+            Computer result = engine.evolve(640, 23, new Stagnation(150, true));
             //  allTimeBest.updateIfBetter(result, new ComputerEvaluator(settings).getFitness(result, null));
             // result = allTimeBest.getComputer();
 
@@ -66,7 +66,7 @@ public class Engine implements Runnable{
                 System.out.println("Complete");
                 Result.addComputer(id, result);
             }
-            if(j > 2){
+            if(j > 6){
                 break;
             }
         }

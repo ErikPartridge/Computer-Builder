@@ -1,9 +1,7 @@
 package com.computerevaluator.controllers;
 
 import com.computerevaluator.ai.Engine;
-import com.computerevaluator.models.Result;
-import com.computerevaluator.models.Settings;
-import com.computerevaluator.models.Size;
+import com.computerevaluator.models.*;
 import org.apache.commons.io.IOUtils;
 import spark.Request;
 import spark.Response;
@@ -36,7 +34,6 @@ public class ViewController{
     }
 
     public static Response process(Request req, Response res){
-        Result result = new Result();
         //Do some parsing here
         double cpu = Double.parseDouble(req.queryParams("cpu"));
         double gpu = Double.parseDouble(req.queryParams("gpu"));
@@ -45,10 +42,28 @@ public class ViewController{
         double space = Double.parseDouble(req.queryParams("space"));
         double newBias = Double.parseDouble(req.queryParams("new"));
         int budget = Integer.parseInt(req.queryParams("budget"));
+        String caseSize = req.queryParams("case");
+        String monitor = req.queryParams("monitor");
+        Case c = Case.findCheapest(caseSize);
+        Resolution resolution = Resolution.UNK;
+        Monitor m = null;
+        switch (monitor) {
+            case "tens": resolution = Resolution.FHDSmall; break;
+            case "tenl": resolution = Resolution.FHDLarge; break;
+            case "fourk": resolution = Resolution.UHD; break;
+        }
+        if(!monitor.equals("no")){
+            m = Monitor.lowCost(resolution);
+        }
+        if(c != null)
+            budget -= c.lowPrice().price.doubleValue();
+        if(m != null)
+            budget -= m.lowPrice().price.doubleValue();
 
+        Result result = new Result(m,c);
         //Then start the thread
         Result.save(result);
-        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, Size.ATX), result.id));
+        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, newBias, space, Size.ATX), result.id));
         t.start();
         res.redirect("/result/c" + result.id);
         return res;

@@ -9,17 +9,21 @@ public class Settings{
 
     public final double gpuIntensity;
 
-    public final int softBudget;
+    public int softBudget;
 
-    public final int hardBudget;
+    public int hardBudget;
 
     public final double diskIntensity;
 
     public final double multicore;
 
+    public final double diskSize;
+
+    public final double newModel;
+
     public final Size size;
 
-    public Settings(double cpuIntensity, double gpuIntensity, int softBudget, int hardBudget, double diskIntensity, double multicore, Size size){
+    public Settings(double cpuIntensity, double gpuIntensity, int softBudget, int hardBudget, double diskIntensity, double multicore, double newModel, double diskSize, Size size){
         this.cpuIntensity = cpuIntensity;
         this.gpuIntensity = gpuIntensity;
         this.softBudget = softBudget;
@@ -27,15 +31,19 @@ public class Settings{
         this.diskIntensity = diskIntensity;
         this.multicore = multicore;
         this.size = size;
+        this.diskSize = diskSize;
+        this.newModel = newModel;
     }
 
-    public Settings(double cpuIntensity, double gpuIntensity, int softBudget, int hardBudget, double diskIntensity, double multicore){
+    public Settings(double cpuIntensity, double gpuIntensity, int softBudget, int hardBudget, double diskIntensity, double multicore, double newModel, double diskSize){
         this.cpuIntensity = cpuIntensity;
         this.gpuIntensity = gpuIntensity;
         this.softBudget = softBudget;
         this.hardBudget = hardBudget;
         this.diskIntensity = diskIntensity;
         this.multicore = multicore;
+        this.diskSize = diskSize;
+        this.newModel = newModel;
         this.size = Size.ATX;
     }
 }

@@ -79,6 +79,9 @@ public class Gpu extends Priced{
         if(shortname.equals("already")){
             return new Price("--Already Purchased--", System.currentTimeMillis(), "#", new BigDecimal(0), "");
         }
+        if(shortname.equals("Integrated")){
+            return new Price("Included", System.currentTimeMillis(), "#", new BigDecimal(0), "");
+        }
         MongoCollection<Document> gpus = database.getCollection("gpus");
         Document gpuDoc = gpus.find(eq("short", shortname)).first();
         Gpu gpu = parseFromJson(gpuDoc.toJson());
@@ -86,6 +89,9 @@ public class Gpu extends Priced{
     }
 
     public static Gpu find (String shortname){
+        if(shortname.equals("Integrated")){
+            return new IntegratedGraphics();
+        }
         MongoCollection<Document> gpus = database.getCollection("gpus");
         Document raw = gpus.find(eq("short", shortname)).first();
         return parseFromJson(raw.toJson());
@@ -93,6 +99,9 @@ public class Gpu extends Priced{
 
     public static BigDecimal medianPrice(String shortname){
         if(shortname.equals("already")){
+            return new BigDecimal(0);
+        }
+        if(shortname.equals("Integrated")){
             return new BigDecimal(0);
         }
         MongoCollection<Document> gpus = database.getCollection("gpus");
@@ -108,7 +117,7 @@ public class Gpu extends Priced{
                 ",\"median\":" + Math.round(medianPrice(shortname).doubleValue()) +
                 ",\"low\":" + Math.round(lowPrice(shortname).price.doubleValue()) +
                 ",\"source\":\"" + lowPrice(shortname).sourceStamp() + "\"" +
-
+                ",\"fourk:\":" + (threedmark > 1800) +
                 ",\"url\":\"";
         if(!lowPrice(shortname).affiliate.equals(""))
             json += lowPrice(shortname).affiliate + "\"";
