@@ -61,7 +61,7 @@
                     <div class="two wide column">
                         <div class="ui radio checkbox">
                             <input type="radio" name="monitor" value="four">
-                            <label class="monitor-label">Yes, 4K (24-30")</label>
+                            <label class="monitor-label">Yes, 4K (23-30")</label>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <input class="custom" data-orientation="vertical" type="range" id="space" name="space" min="0.05" max="1.0" step=".05" value=".4" />
                 </div>
                 <div class="two wide column">
-                    <label id="new-label" for="new">New Model Bias</label>
+                    <label id="new-label" for="new">Newer Parts</label>
                     <p class="small italic">Latest and Greatest?</p>
                     <input class="custom" data-orientation="vertical" type="range" id="new" name="new" min="0.05" max="1.0" step=".05" value=".4" />
                 </div>
@@ -206,7 +206,7 @@
         $('#gaming-preset').click(function(){
             $('#cpu').val('.6').change();
             $('#gpu').val('.85').change();
-            $('#disk').val('0.6').change();
+            $('#disk').val('0.75').change();
             $('#multi').val('0.5').change();
             $('#space').val('0.65').change();
         });
@@ -284,10 +284,10 @@
         $("#new").rangeslider({
             polyfill: false,
             onInit: function(){
-                $('#new-label').html("New Model Bias: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
+                $('#new-label').html("Newer Parts: " + Humanize.formatNumber(this.$element.val() * 100, 0) + "&#37;");
             },
             onSlide : function( position, value ) {
-                $('#new-label').html("New Model Bias: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
+                $('#new-label').html("Newer Parts: " + Humanize.formatNumber(value * 100, 0) + "&#37;");
             }
         });
 

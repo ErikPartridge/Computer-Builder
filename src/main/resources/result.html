@@ -24,10 +24,20 @@
                     <h1 class="top-header" v-if="done">The Best Match For You</h1>
                     <h1 class="top-header" v-if="!done">Thinking...</h1>
                     <h2 v-if="!done">This process may take up to 20 seconds</h2>
-                    <h4 v-if="!done">You may return to this page at any time. While you wait, perhaps pick out a case from <a class="redurl" href="http://amzn.to/29hb7iJ">this lovely selection?</a> </h4>
+                    <h4 v-if="!done">You may return to this page at any time.</h4>
                     <p v-if="done" class="small italic">
                     Always verify that all parts are compatible with each other, and that the PSU provides sufficient power.</p>
                     <h2 v-if="done">${{price.toFixed(2)}}</h2>
+                </div>
+            </div>
+            <div v-if="overclockable" class="ui row">
+                <div class="nine wide column centered">
+                    <div class="ui message">
+                        <div class="header">
+                            Overclockable CPU
+                        </div>
+                        <p>This is an overclockable CPU. If you plan to overclock, you should buy an <a href="http://amzn.to/29zEZbP">after-market CPU Cooler</a> as the stock cooler may not suffice.</p>
+                    </div>
                 </div>
             </div>
             <div v-if="done" class="ui row">
@@ -92,8 +102,16 @@
         data : {
             done : false,
             result : {}
+        },
+        computed : {
+          overclockable :function() {
+            if(!this.done){
+                return false;
+            }else if((this.cpu.name.endsWith("K") || this.cpu.name.endsWith("X")) && this.cpu.name.includes("Intel")){
+                return true;
+            }
+          }
         }
-
     });
     function update(){
         var time = 0;
