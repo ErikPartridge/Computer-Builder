@@ -3,46 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico?v=2" />
-    <script src="/lib/jquery/dist/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Maitree" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Trirong" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-    <title>Artisanal AI PCs</title>
-    <link href="/lib/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css"/>
-    <script src="/lib/semantic/dist/semantic.min.js"></script>
+    <title>Your Custom PC Build</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
     <link href="/style.css" rel="stylesheet" type="text/css"/>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
     <script src="/lib/humanize-plus/dist/humanize.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"></script>
-    <script src="//www.anrdoezrs.net/am/8108375/include/joined/generate/onLoad/impressions/page/am.js"></script>
-    <title>We're Thinking</title>
+    <script type="text/javascript">reddit_target='buildapc'</script>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+
+    <meta name="description" content="Check out my new computer build and let me know what you think!">
 </head>
 <body>
     <div class="ui container" id="app">
         <div class="ui stackable grid">
             <div class="ui row centered">
                 <div class="eight wide column center aligned">
-                    <h1 class="top-header" v-if="done">The Best Match For You</h1>
-                    <h1 class="top-header" v-if="!done">Thinking...</h1>
-                    <h2 v-if="!done">This process may take up to 20 seconds</h2>
-                    <h4 v-if="!done">You may return to this page at any time.</h4>
+                    <h3 class="top-header" v-if="done">The Best Match For You</h3>
+                    <h4 class="top-header" v-if="!done">Thinking...</h4>
+                    <h6 v-if="!done">This process may take up to 20 seconds</h6>
+                    <h6 v-if="!done">You may return to this page at any time.</h6>
                     <p v-if="done" class="small italic">
                     Always verify that all parts are compatible with each other, and that the PSU provides sufficient power.</p>
-                    <h2 v-if="done">${{price.toFixed(2)}}</h2>
+                    <h5 v-if="done">Total: ${{price.toFixed(2)}}</h5>
                 </div>
             </div>
-            <div v-if="overclockable" class="ui row">
-                <div class="nine wide column centered">
-                    <div class="ui message">
-                        <div class="header">
-                            Overclockable CPU
+            <div v-if="overclockable" class="row">
+                <div class="col s12 m8 l8 offset-m2 offset-l2">
+                    <div class="card grey lighten-2">
+                        <div class="card-content">
+                            <span class="card-title">Overclockable CPU</span>
+                            <p>This is an overclockable CPU. If you plan to overclock, you should buy an aftermarket cooler.</p>
                         </div>
-                        <p>This is an overclockable CPU. If you plan to overclock, you should buy an <a href="http://amzn.to/29zEZbP">after-market CPU Cooler</a> as the stock cooler may not suffice.</p>
                     </div>
                 </div>
             </div>
             <div v-if="done" class="ui row">
-                <div class="nine wide column centered">
-                    <table id="results-table" style="width: 100%;" class="ui very basic collapsing celled table">
+                <div class="col s12 m12 l10 offset-l1">
+                    <table id="results-table" class="bordered responsive-table">
                         <tbody>
                         <tr><td>CPU</td><td>{{cpu.name}}</td><td><a class="redurl" href="{{cpu.url}}">${{cpu.low}}</a> - {{cpu.source}}</td></tr>
                         <tr><td>GPU</td><td>{{gpu.name}}</td><td><a class="redurl" href="{{gpu.url}}">${{gpu.low}}</a> - {{gpu.source}}</td></tr>
@@ -57,10 +61,31 @@
                     </table>
                 </div>
             </div>
-            <div v-if="done" class="ui row">
-                <div class="four wide column centered">
+            <hr v-if="done">
+            <div v-if="done" class="row">
+                <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+                    <h5 class="center aligned">Get a Human's Perspective &amp; Show Off Your Build!</h5>
+                </div>
+                <div class="col s1 m2 l2">
+
+                </div>
+                <div class="col s3 offset-s3 m2 offset-m5 l1 offset-l5">
+                    <a class="center aligned" id="fb-link" href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+                        <img height="35vh" width="35vh" src="/f_icon.png" alt="Share on Facebook"/>
+                    </a>
+                </div>
+                <div class="col s3 m2 l1 ">
+                    <a class="center aligned" id="reddit-link" href="https://www.reddit.com/r/buildapc/submit?title=My%20New%20Build&text=Feedback%20on%20my%20new%20build" target="_blank">
+                        <img height="35vh" width="35vh" src="/reddit.png" alt="Post On Reddit"/>
+                    </a>
+                </div>
+            </div>
+            <hr v-if="done">
+            <div v-if="done" class="row">
+                <div class="col s10 offset-s1 m4 offset-m4 l4 offset-l4">
                     <span><a class="redurl" href="/terms">Terms &amp; Privacy</a> &bull; <a href="/" class="redurl">Back</a> &bull;&nbsp;&copy; Erik Partridge, 2016 </span>
                 </div>
+                <div class="col s1 m4 l4"></div>
             </div>
         </div>
         <div v-if="!done" class="sk-folding-cube">
@@ -97,10 +122,14 @@
     <noscript><p><img src="//stats.computerevaluator.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
 <script type="application/javascript">
+    $('#fb-link').attr('href', 'https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
+    $('#twitter-link').attr('href', 'https://www.twitter.com');
+    $('#reddit-link').attr('href', 'https://www.reddit.com/r/buildapc/submit?title=My%20New%20Build&text=' + window.location.href);
     var v = new Vue({
         el: '#app',
         data : {
             done : false,
+            thispage : window.location.href,
             result : {}
         },
         computed : {
@@ -128,7 +157,6 @@
                     console.log("Done processing data");
                     v.$data = data;
                     v['done'] = true;
-                    _paq.push([['trackEvent', 'Results', 'Load', 'Complete', time]]);
                 }
             },
             error:function(err){

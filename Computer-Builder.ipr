@@ -610,6 +610,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/mozilla/rhino/1.7R4/rhino-1.7R4-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.ocpsoft.prettytime:prettytime:3.2.7.Final">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ocpsoft/prettytime/prettytime/3.2.7.Final/prettytime-3.2.7.Final.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ocpsoft/prettytime/prettytime/3.2.7.Final/prettytime-3.2.7.Final-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/ocpsoft/prettytime/prettytime/3.2.7.Final/prettytime-3.2.7.Final-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.slf4j:slf4j-api:1.7.21">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />

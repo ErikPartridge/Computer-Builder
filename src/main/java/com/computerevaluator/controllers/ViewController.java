@@ -52,6 +52,12 @@ public class ViewController{
             case "tenl": resolution = Resolution.FHDLarge; break;
             case "fourk": resolution = Resolution.UHD; break;
         }
+        Size size;
+        switch(caseSize){
+            case "MicroATX": size = Size.mATX;break;
+            case "ATX" : size = Size.ATX;break;
+            default : size = Size.ATX;break;
+        }
         if(!monitor.equals("no")){
             m = Monitor.lowCost(resolution);
         }
@@ -63,7 +69,7 @@ public class ViewController{
         Result result = new Result(m,c);
         //Then start the thread
         Result.save(result);
-        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, newBias, space, Size.ATX), result.id));
+        Thread t = new Thread(new Engine(new Settings(cpu, gpu, budget, budget + 50, disk, multi, newBias, space, size), result.id));
         t.start();
         res.redirect("/result/c" + result.id);
         return res;

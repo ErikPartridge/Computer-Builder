@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.ocpsoft.prettytime:prettytime:3.2.7.Final" level="project" />
     <orderEntry type="library" name="Maven: org.uncommons.watchmaker:watchmaker-framework:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.collections:google-collections:1.0" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />

@@ -2,9 +2,11 @@ package com.computerevaluator.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.ocpsoft.prettytime.PrettyTime;
 
 import java.math.BigDecimal;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -80,6 +82,7 @@ public class Price implements Comparable{
     }
 
     public String sourceStamp (){
-        return name + ", " + (System.currentTimeMillis() - time) / 60000 + " minutes ago";
+        PrettyTime p = new PrettyTime();
+        return name + ", " + p.format(new Date(time));
     }
 }

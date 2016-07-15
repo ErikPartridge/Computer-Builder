@@ -1,9 +1,6 @@
 package com.computerevaluator.ai;
 
-import com.computerevaluator.models.Computer;
-import com.computerevaluator.models.Cpu;
-import com.computerevaluator.models.Gpu;
-import com.computerevaluator.models.Settings;
+import com.computerevaluator.models.*;
 import org.uncommons.watchmaker.framework.FitnessEvaluator;
 
 import java.util.ArrayList;
@@ -51,7 +48,7 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         //a little boost, since otherwise the max score was 95.5
         double score = 0;
         score += 6 * getMatchPercent(computer);
-        if(computer.compatible())
+        if(computer.compatible() && sizeCompatability(computer))
             score += 9.5;
         int ramAmount =computer.ramAmount();
         if(ramAmount < 8)
@@ -103,7 +100,7 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
             driveScore = 7.5;
         }
         score += driveScore;
-        double rawCpu = ((1 - settings.multicore) / 2.5d) * computer.cpu.singlecore +  ((settings.multicore / 3) * (computer.cpu.multicore));
+        double rawCpu = ((1 - settings.multicore) / 3) * computer.cpu.singlecore +  ((settings.multicore / 3) * (computer.cpu.multicore));
         double adjustedCpu = 26 + 40* ((settings.cpuIntensity / (settings.cpuIntensity + settings.gpuIntensity))* rawCpu - lowCpuScore()) / (maxCpuScore() - lowCpuScore());
         double rawGpu = computer.gpu.fps + (computer.gpu.threedmark / 100);
         double adjustedGpu = 17 + 40 * ((settings.gpuIntensity / (settings.cpuIntensity + settings.gpuIntensity)) * rawGpu - lowGpuScore()) / (maxGpuScore() - lowGpuScore());
@@ -115,27 +112,31 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         return score;
     }
 
+    private boolean sizeCompatability(Computer comp){
+        return comp.motherboard.formFactor.equals("MicroATX") && settings.size == Size.mATX || comp.motherboard.formFactor.equals("ATX") && (settings.size == Size.ATX);
+    }
+
 
     private double maxCpuScore(){
         List<Cpu> cpus = new ArrayList<>(Cpu.list());
-        cpus.sort((o1, o2) -> (int)((( settings.multicore * o1.multicore / 3 )+ (( (1 - settings.multicore) / 6) * o1.singlecore))  - (settings.multicore * o2.multicore / 3 + ((1-settings.multicore) / 6) * o2.singlecore)));
-        return (double) ((settings.multicore * cpus.get(cpus.size() - 1).multicore / 3) + ((1-settings.multicore) / 6) * cpus.get(cpus.size() - 1).singlecore);
+        cpus.sort((o1, o2) -> (int)((( settings.multicore * o1.multicore / 3 )+ (( (1 - settings.multicore) / 3) * o1.singlecore))  - (settings.multicore * o2.multicore / 3 + ((1-settings.multicore) / 3) * o2.singlecore)));
+        return (double) ((settings.multicore * cpus.get(cpus.size() - 1).multicore / 3) + ((1-settings.multicore) / 3) * cpus.get(cpus.size() - 1).singlecore);
     }
 
     private double lowCpuScore(){
         List<Cpu> cpus = new ArrayList<>(Cpu.list());
-        cpus.sort((o1, o2) -> (int)((( settings.multicore * o1.multicore / 3 )+ (( (1 - settings.multicore) / 6) * o1.singlecore))  - (settings.multicore * o2.multicore / 3 + ((1-settings.multicore) / 6) * o2.singlecore)));
-        return (double) ((settings.multicore * cpus.get(0).multicore / 3) + (1-settings.multicore) * cpus.get(0).singlecore) / 6;    }
+        cpus.sort((o1, o2) -> (int)((( settings.multicore * o1.multicore / 3 )+ (( (1 - settings.multicore) / 3) * o1.singlecore))  - (settings.multicore * o2.multicore / 3 + ((1-settings.multicore) / 3) * o2.singlecore)));
+        return (double) ((settings.multicore * cpus.get(0).multicore / 3) + (1-settings.multicore) * cpus.get(0).singlecore) / 3;    }
 
     private double maxGpuScore(){
         List<Gpu> gpus = new ArrayList<>(Gpu.list());
-        gpus.sort((o1, o2) -> (o1.fps * o1.threedmark / 100  - o2.fps * o2.threedmark / 100 ));
+        gpus.sort((o1, o2) -> ((o1.fps + o1.threedmark / 100)  - (o2.fps + o2.threedmark / 100) ));
         return (double) ((gpus.get(gpus.size() - 1).fps + gpus.get(gpus.size() - 1).threedmark / 100));
     }
 
     private double lowGpuScore(){
         List<Gpu> gpus = new ArrayList<>(Gpu.list());
-        gpus.sort((o1, o2) -> (o1.fps * o1.threedmark / 100  - o2.fps * o2.threedmark / 100 ));
+        gpus.sort((o1, o2) -> ((o1.fps + o1.threedmark / 100)  - (o2.fps + o2.threedmark / 100) ));
         return (double) ((gpus.get(0).fps + gpus.get(0).threedmark / 100));
     }
 
@@ -143,14 +144,15 @@ public class ComputerEvaluator implements FitnessEvaluator<Computer>{
         double matchQuality = 1.0;
         if(settings.softBudget < 650 && computer.ram.size * computer.ram.number > 8){
             matchQuality -= .2;
-        }else if(settings.softBudget > 1000 && computer.ram.size * computer.ram.number < 14){
+        }else if(settings.softBudget > 1050 && computer.ram.size * computer.ram.number < 14){
             matchQuality -= .2;
         }
-        if(computer.gpu.name.contains("R9 390") && computer.cpu.name.contains("i3-")){
+        double rawCpu = ((1 - .5) / 3) * computer.cpu.singlecore +  ((settings.multicore / 3) * (computer.cpu.multicore));
+        double adjustedCpu = (rawCpu - lowCpuScore()) / (maxCpuScore() - lowCpuScore());
+        double rawGpu = computer.gpu.fps + (computer.gpu.threedmark / 100);
+        double adjustedGpu = (rawGpu - lowGpuScore()) / (maxGpuScore() - lowGpuScore());
+        if(Math.abs(adjustedCpu - adjustedGpu) > 0.4)
             matchQuality -= .3;
-        }else if(computer.gpu.name.contains("980") && computer.cpu.name.contains("i3-")){
-            matchQuality -= .4;
-        }
         return matchQuality;
     }
 

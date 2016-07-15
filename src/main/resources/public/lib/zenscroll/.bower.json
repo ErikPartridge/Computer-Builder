@@ -1,0 +1,15 @@
+{
+  "name": "zenscroll",
+  "homepage": "https://github.com/zengabor/zenscroll",
+  "version": "3.1.0",
+  "_release": "3.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.1.0",
+    "commit": "71c32da7a30d4ec3b32f3bb2d59f8370456f22e3"
+  },
+  "_source": "https://github.com/zengabor/zenscroll.git",
+  "_target": "^3.1.0",
+  "_originalSource": "zenscroll",
+  "_direct": true
+}

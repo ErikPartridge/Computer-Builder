@@ -1,7 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e074170-43bb-4126-be90-5a371ef6241c" name="Default" comment="" />
+    <list default="true" id="8e074170-43bb-4126-be90-5a371ef6241c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/Server.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/ComputerEvaluator.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/ComputerEvaluator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/Engine.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/Engine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/controllers/ViewController.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/controllers/ViewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Case.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Case.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Drive.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Drive.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Monitor.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Monitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Motherboard.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Motherboard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Price.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Price.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Priced.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Priced.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Psu.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Psu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/services/Connection.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/services/Connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/attachment-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/attachment-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/blog-post-edit-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/blog-post-edit-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/comments-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/comments-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/community-users-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/community-users-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/mail-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/mail-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/notes-edit-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/notes-edit-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.iml" afterPath="$PROJECT_DIR$/Computer-Builder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.ipr" afterPath="$PROJECT_DIR$/Computer-Builder.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.iws" afterPath="$PROJECT_DIR$/Computer-Builder.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bower.json" afterPath="$PROJECT_DIR$/src/main/resources/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/index.html" afterPath="$PROJECT_DIR$/src/main/resources/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/result.html" afterPath="$PROJECT_DIR$/src/main/resources/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/terms.html" afterPath="$PROJECT_DIR$/src/main/resources/terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bower.json" afterPath="$PROJECT_DIR$/target/classes/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/index.html" afterPath="$PROJECT_DIR$/target/classes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/dygraphs/check-combined-unaffected.sh" afterPath="$PROJECT_DIR$/target/classes/public/lib/dygraphs/check-combined-unaffected.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/build" afterPath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/header" afterPath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/header" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/breadcrumb.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/breadcrumb.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/form.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/grid.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/menu.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/menu.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/message.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/message.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/table.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/button.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/button.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/divider.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/divider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/flag.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/flag.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/header.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/icon.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/icon.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/image.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/image.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/input.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/input.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/label.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/label.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/list.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/loader.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/loader.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/rail.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/rail.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/reveal.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/reveal.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/segment.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/segment.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/step.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/step.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/reset.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/reset.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/site.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/site.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/accordion.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/checkbox.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dimmer.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dimmer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dropdown.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dropdown.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/modal.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/modal.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/nag.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/nag.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/popup.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/progress.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/progress.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/rating.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/rating.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/search.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/search.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/shape.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/shape.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sidebar.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sticky.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sticky.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/tab.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/tab.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/transition.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/transition.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/card.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/card.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/comment.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/comment.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/feed.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/feed.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/item.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/item.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/statistic.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/statistic.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/docs/css/tipuesearch.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/docs/css/tipuesearch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/interaction/navigationMenu.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/interaction/navigationMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/items/pointItems.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/items/pointItems.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/styling/itemClassNames.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/styling/itemClassNames.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/style.css" afterPath="$PROJECT_DIR$/target/classes/public/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/result.html" afterPath="$PROJECT_DIR$/target/classes/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/terms.html" afterPath="$PROJECT_DIR$/target/classes/terms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+    </list>
     <ignored path="Computer-Builder.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,7 +189,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -27,22 +201,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
+            <state relative-caret-position="5460">
+              <caret line="364" column="25" selection-start-line="364" selection-start-column="25" selection-end-line="364" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="68" column="20" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1322#1332#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -50,29 +211,65 @@
       <file leaf-file-name="result.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+            <state relative-caret-position="317">
+              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Motherboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Motherboard.java">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/public/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Price.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="19" />
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Monitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Monitor.java">
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1860">
+              <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,57 +277,14 @@
       <file leaf-file-name="ComputerEvaluator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+            <state relative-caret-position="2190">
+              <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#546#547#0" expanded="false" />
-                <element signature="e#586#587#0" expanded="false" />
-                <element signature="e#6626#6627#0" expanded="false" />
-                <element signature="e#6653#6654#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegratedGraphics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/IntegratedGraphics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#174#175#0" expanded="false" />
-                <element signature="e#260#261#0" expanded="false" />
-                <element signature="e#304#305#0" expanded="false" />
-                <element signature="e#371#372#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Case.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Case.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Computer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
-              <folding>
-                <element signature="e#1501#1502#0" expanded="false" />
-                <element signature="e#1571#1572#0" expanded="false" />
-                <element signature="e#2122#2123#0" expanded="false" />
-                <element signature="e#2166#2167#0" expanded="false" />
+                <element signature="e#411#412#0" expanded="false" />
+                <element signature="e#451#452#0" expanded="false" />
+                <element signature="e#6969#6970#0" expanded="false" />
+                <element signature="e#6996#6997#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -141,6 +295,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerEvolutionEngine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -176,13 +342,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/.bowerrc" />
         <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/public/result.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Size.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Priced.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Drive.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Psu.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Cpu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ApiController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Ram.java" />
@@ -192,18 +355,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Motherboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Resolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerCrossover.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/terms.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Case.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Monitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Computer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Gpu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/terms.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/result.html" />
       </list>
@@ -228,7 +394,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
+    <option name="x" value="68" />
     <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="720" />
@@ -258,7 +424,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -373,6 +539,40 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zenscroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computer-Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computer-Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -397,6 +597,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="computerevaluator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computer-Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Computer-Builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="computerevaluator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,7 +722,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,11 +803,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -593,9 +831,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -677,6 +923,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -1051,14 +1300,21 @@
       <workItem from="1468073942585" duration="730000" />
       <workItem from="1468105513393" duration="1030000" />
       <workItem from="1468165095054" duration="1988000" />
+      <workItem from="1468254386307" duration="15923000" />
+      <workItem from="1468340779791" duration="5477000" />
+      <workItem from="1468364126726" duration="324000" />
+      <workItem from="1468420043627" duration="2944000" />
+      <workItem from="1468513762094" duration="3089000" />
+      <workItem from="1468530675163" duration="4246000" />
+      <workItem from="1468542237750" duration="972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148040000" />
+    <option name="totallyTimeSpent" value="181015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="23" width="1202" height="720" extended-state="0" />
+    <frame x="68" y="23" width="1202" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1068,19 +1324,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31797236" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31797236" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26622295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26622295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1147,13 +1403,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java</url>
-          <line>62</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java</url>
-          <line>64</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
@@ -1171,29 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1322#1332#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1322#1332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,10 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1322#1332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,10 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1322#1332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1324,28 +1549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/lib/rangeslider.js/dist/rangeslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1381,13 +1584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerCrossover.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1395,31 +1591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/terms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="375" selection-start-line="15" selection-start-column="375" selection-end-line="15" selection-end-column="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Psu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="49" column="36" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1444,33 +1619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Gpu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,24 +1630,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="68" column="20" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1322#1332#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Motherboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#6626#6627#0" expanded="false" />
-            <element signature="e#6653#6654#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1635">
+          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,13 +1659,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="198" selection-start-line="17" selection-start-column="198" selection-end-line="17" selection-end-column="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="71" column="118" selection-start-line="71" selection-start-column="118" selection-end-line="71" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#371#372#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1536,6 +1717,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/lib/nouislider/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#6969#6970#0" expanded="false" />
+            <element signature="e#6996#6997#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1546,34 +1768,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Monitor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="68" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Motherboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="5460">
+          <caret line="364" column="25" selection-start-line="364" selection-start-column="25" selection-end-line="364" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="26" column="77" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
+        <state relative-caret-position="317">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
