@@ -9,7 +9,7 @@ import com.mongodb.client.MongoDatabase;
  */
 public class Connection{
 
-    private static final MongoClient client = new MongoClient(new ServerAddress("localhost", 27018));
+    private static final MongoClient client = new MongoClient(new ServerAddress("localhost", 27017));
 
     public static final MongoDatabase database = client.getDatabase("computerparts");
 

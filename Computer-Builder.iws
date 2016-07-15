@@ -2,180 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e074170-43bb-4126-be90-5a371ef6241c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/Server.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/ComputerEvaluator.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/ComputerEvaluator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/Engine.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/ai/Engine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/controllers/ViewController.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/controllers/ViewController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Case.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Case.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Drive.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Drive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Monitor.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Monitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Motherboard.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Motherboard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Price.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Price.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Priced.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Priced.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Psu.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/models/Psu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/computerevaluator/services/Connection.class" afterPath="$PROJECT_DIR$/target/classes/com/computerevaluator/services/Connection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/attachment-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/attachment-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/blog-post-edit-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/blog-post-edit-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/comments-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/comments-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/community-users-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/community-users-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/mail-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/mail-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/notes-edit-icon.png" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/resources/img/notes-edit-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.iml" afterPath="$PROJECT_DIR$/Computer-Builder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.ipr" afterPath="$PROJECT_DIR$/Computer-Builder.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computer-Builder.iws" afterPath="$PROJECT_DIR$/Computer-Builder.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" afterPath="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bower.json" afterPath="$PROJECT_DIR$/src/main/resources/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/index.html" afterPath="$PROJECT_DIR$/src/main/resources/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/style.css" afterPath="$PROJECT_DIR$/src/main/resources/public/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/result.html" afterPath="$PROJECT_DIR$/src/main/resources/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/terms.html" afterPath="$PROJECT_DIR$/src/main/resources/terms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bower.json" afterPath="$PROJECT_DIR$/target/classes/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/index.html" afterPath="$PROJECT_DIR$/target/classes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/dygraphs/check-combined-unaffected.sh" afterPath="$PROJECT_DIR$/target/classes/public/lib/dygraphs/check-combined-unaffected.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/build" afterPath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/header" afterPath="$PROJECT_DIR$/target/classes/public/lib/humanize-plus/bin/header" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/accordion.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/breadcrumb.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/button.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/card.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/checkbox.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/comment.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dimmer.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/divider.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/dropdown.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/feed.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/flag.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/form.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/grid.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/header.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/icon.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/image.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/input.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/item.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/label.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/list.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/loader.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/menu.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/message.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/modal.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/nag.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/popup.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/progress.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rail.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/rating.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reset.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/reveal.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/search.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/segment.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/shape.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sidebar.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/site.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/statistic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/step.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/sticky.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/tab.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/table.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/transition.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/components/video.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.min.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/dist/semantic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/breadcrumb.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/breadcrumb.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/form.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/form.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/grid.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/menu.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/menu.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/message.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/message.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/table.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/collections/table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/button.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/button.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/divider.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/flag.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/flag.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/header.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/icon.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/icon.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/image.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/input.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/input.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/label.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/label.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/list.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/loader.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/loader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/rail.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/rail.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/reveal.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/reveal.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/segment.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/segment.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/step.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/elements/step.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/reset.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/reset.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/site.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/globals/site.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/accordion.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/accordion.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/checkbox.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/checkbox.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dimmer.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dimmer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dropdown.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/dropdown.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/modal.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/modal.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/nag.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/nag.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/popup.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/popup.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/progress.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/progress.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/rating.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/rating.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/search.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/search.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/shape.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/shape.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sidebar.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sidebar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sticky.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/sticky.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/tab.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/tab.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/transition.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/modules/transition.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/card.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/card.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/comment.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/comment.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/feed.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/feed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/item.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/item.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/statistic.less" afterPath="$PROJECT_DIR$/target/classes/public/lib/semantic/src/definitions/views/statistic.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/docs/css/tipuesearch.css" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/docs/css/tipuesearch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/interaction/navigationMenu.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/interaction/navigationMenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/items/pointItems.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/items/pointItems.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/styling/itemClassNames.html" afterPath="$PROJECT_DIR$/target/classes/public/lib/vis/examples/timeline/styling/itemClassNames.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/style.css" afterPath="$PROJECT_DIR$/target/classes/public/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/result.html" afterPath="$PROJECT_DIR$/target/classes/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/terms.html" afterPath="$PROJECT_DIR$/target/classes/terms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="Computer-Builder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -208,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="1928">
               <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
@@ -233,9 +60,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1170">
               <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -255,21 +80,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1860">
               <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -279,13 +100,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2190">
               <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#411#412#0" expanded="false" />
-                <element signature="e#451#452#0" expanded="false" />
-                <element signature="e#6969#6970#0" expanded="false" />
-                <element signature="e#6996#6997#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -295,9 +110,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -307,9 +120,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -365,13 +176,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/controllers/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/terms.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/result.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java" />
       </list>
     </option>
   </component>
@@ -424,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -723,6 +532,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1307,11 +1118,12 @@
       <workItem from="1468513762094" duration="3089000" />
       <workItem from="1468530675163" duration="4246000" />
       <workItem from="1468542237750" duration="972000" />
+      <workItem from="1468544914429" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181015000" />
+    <option name="totallyTimeSpent" value="181031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1202" height="720" extended-state="0" />
@@ -1319,29 +1131,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.490625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31797236" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31797236" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31797236" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26622295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.490625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1724,74 +1536,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="5460">
+          <caret line="364" column="25" selection-start-line="364" selection-start-column="25" selection-end-line="364" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#6969#6970#0" expanded="false" />
-            <element signature="e#6996#6997#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="1928">
+          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1804,18 +1560,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Price.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5460">
-          <caret line="364" column="25" selection-start-line="364" selection-start-column="25" selection-end-line="364" selection-end-column="25" />
+        <state relative-caret-position="1170">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/result.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/models/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="132" column="62" selection-start-line="132" selection-start-column="62" selection-end-line="132" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/ai/ComputerEvolutionEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/computerevaluator/services/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
           <folding />
         </state>
       </provider>
